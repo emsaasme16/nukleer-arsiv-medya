@@ -10,7 +10,9 @@ Plan belgesi (Claude Docs): "Sezon 1: Atomdan Santrale – Nükleer Mühendislik
 
 - `atomun-kutlesi-nerede.mp4`: yayınlanmış ilk Short (herkese açık adres).
 - `brand/`: profil resmi, banner ve video filigranı.
-- `pipeline/short1_atomun_kutlesi/`: ilk Short'u üreten kod. Yeni Short'lar bu koddan şablon alınarak yazılır.
+- `pipeline/short1_atomun_kutlesi/`: ilk Short'u üreten kod.
+- `pipeline/short2_cekirdek_ve_muz/`: 2. ve 3. Short'lar. Ortak yardımcılar `common.py`, ses/müzik/miks tek betikte (`sound_mix.py`). Yeni Short'lar için şablon olarak bunu kullan (`NOTLAR.md`).
+- `yayin-kaydi.md`: yayın kaydı.
 
 ## Yeni oturumda kurulum
 
@@ -19,6 +21,10 @@ Plan belgesi (Claude Docs): "Sezon 1: Atomdan Santrale – Nükleer Mühendislik
 3. Kodu kopyala: `cp pipeline/short1_atomun_kutlesi/* /home/claude/short1/code/`.
 4. Yazı tipi: Poppins sistemde kurulu olmalı (`fc-list | grep -i poppins`). Kod `render3.py` içinde font yollarını arar.
 5. Kullanılan araçlar: Python (numpy, scipy, cv2, PIL), ffmpeg (libx264, rubberband, sidechaincompress, loudnorm).
+
+## Ağ ortamı
+
+Cloud ortamı `nukleer-arsiv-medya` bu depo için kayıtlı. İzinli alan adları: elevenlabsusercontent.com, www.energy.gov, www.epa.gov, www.nrc.gov, hps.org (Cloudflare engelliyor), hyperphysics.phy-astr.gsu.edu ve www.physics.isu.edu (DNS çözülmedi), raw.githubusercontent.com (Poppins yazı tipi). Yeni bir kaynak sitesi gerekiyorsa ortamın ağ ayarına eklenmeli. Varsayılan ortamda kaynak sayfaları açılmaz.
 
 ## Video üretim akışı (Short, yaklaşık 38 saniye, 1080×1920, 30 fps)
 
