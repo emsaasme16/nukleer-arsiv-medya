@@ -15,3 +15,7 @@ Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 - EPA (gıda): "Consuming one banana would deliver a total dose of 0.01 millirem (0.1 microsieverts) of radiation ... you would need to eat about 100 bananas to receive the same amount of radiation exposure as you get each day in United States from natural radiation in the environment." / "Because the amount of radiation is very small, these foods do not pose a radiation risk."
 - NRC: "a chest x-ray typically gives a dose of about 0.01 rem (10 millirem)"; muzda 40K 3.520 pCi/kg; yıllık ortalama 620 mrem, yarısı doğal (310 mrem → günde ≈0,85 mrem, EPA'nın "≈100 muz/gün" ifadesiyle uyumlu).
 - HyperPhysics (GSU) ve hps.org açılamadı (DNS / Cloudflare), kullanılmadı.
+
+## Windsor destek talebi
+
+- 2026-11-24: YouTube `upload_video` hız sınırı hatası için Windsor.ai destek talebi açıldı. Referans numarası: **55628234** (canlı sohbet: windsor.ai, e-posta: support@windsor.ai).
