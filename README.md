@@ -42,7 +42,7 @@ Plan belgesi (Claude Docs): "Sezon 1: Atomdan Santrale – Nükleer Mühendislik
 
 - Başlık: kısa soru + `#Shorts` (YouTube).
 - Açıklama: tek paragraf özet, "Animasyon şematiktir, ölçekli değildir. Seslendirme yapay ses ile yapılmıştır.", kaynak listesi bağlantılarıyla, "Devamı kanalda: Bölüm N."
-- Etiketler: `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`.
+- Etiketler: `#NükleerArşiv #nükleer #atom #fizik #bilim #keşfet #shorts` (**#keşfet her videoda zorunlu**, hem YouTube açıklamasında hem Instagram altyazısında).
 - Instagram'da bağlantı tıklanmaz, kaynaklar adıyla yazılır ve "Bağlantılar YouTube açıklamasında" notu eklenir.
 
 ## Bilinen sınırlar

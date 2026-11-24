@@ -30,6 +30,10 @@ Her video için: kaynak listesi, senaryo (45-60 saniye okunacak kadar kısa), El
 
 Görsel: iki proton, kırmızı itme okları, sonra mavi bağlar. Yazı: "İter mi? Evet. Dağılır mı? Hayır."
 
+## Etiketler
+
+Her videonun açıklamasında ve altyazısında şu etiketler olur: `#NükleerArşiv #nükleer #atom #fizik #bilim #keşfet #shorts` ve konuya özel 1-2 etiket. **#keşfet hiçbir videoda unutulmaz.** (YouTube'da 15'ten fazla etiket yok sayılır, bu yüzden toplamı 10'un altında tut.)
+
 ## Yayın kaydı
 
 Yayınlanan her video için `yayin-kaydi.md` dosyasına bir satır ekle: tarih, başlık, YouTube bağlantısı, Instagram medya kimliği, kullanılan kaynaklar. Yayın başarısızsa nedenini de yaz.
