@@ -2,7 +2,7 @@
 
 | Tarih | Başlık | YouTube | Instagram medya kimliği | Kaynaklar | Not |
 |---|---|---|---|---|---|
-| 2026-11-24 | Çekirdek neden dağılmıyor? | **Yayınlanmadı** | 18132193852798937 | ABD DOE, "DOE Explains...The Strong Force" (energy.gov/science/doe-explainsthe-strong-force) | YouTube: Windsor `upload_video` iki denemede de "YouTube rate-limited the upload" hatası verdi. Claude in Chrome bağlı değildi, tarayıcı yolu denenmedi. |
+| 2026-11-24 | Çekirdek neden dağılmıyor? | **Yayınlanmadı** | 18132193852798937 | ABD DOE, "DOE Explains...The Strong Force" (energy.gov/science/doe-explainsthe-strong-force) | YouTube: Windsor `upload_video` üç denemede de (son deneme kullanıcı isteğiyle, birkaç dakika sonra) "YouTube rate-limited the upload" hatası verdi. Claude in Chrome bağlı değildi, tarayıcı yolu denenmedi. |
 | 2026-11-24 | Mit mi, gerçek mi? Muz radyoaktif midir? | **Yayınlanmadı** (deneme yapılmadı, aynı hız sınırı) | 18436233994149942 | ABD EPA, "Natural Radioactivity in Food" (epa.gov/radtown/natural-radioactivity-food); ABD NRC, "Doses in Our Daily Lives" (nrc.gov/about-nrc/radiation/around-us/doses-daily-lives.html); ABD EPA, "Radiation Sources and Doses" (epa.gov/radiation/radiation-sources-and-doses) | 1.000 muz = NRC göğüs röntgeni 10 mrem ÷ EPA 0,01 mrem/muz (hesap). |
 
 Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
