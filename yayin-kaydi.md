@@ -23,3 +23,5 @@ Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 ## Windsor destek talebi
 
 - 2026-11-24: YouTube `upload_video` hız sınırı hatası için Windsor.ai destek talebi açıldı. Referans numarası: **55628234** (canlı sohbet: windsor.ai, e-posta: support@windsor.ai).
+
+- 2026-11-24 (3. oturum, "YouTube'a iki Short yükle (Chrome)"): Yükleme yapılamadı. Oturumda Claude in Chrome araçları yoktu. Kullanıcının bilgisayarı (DESKTOP-JU4U86N) Remote Control listesinde görünüyor, ama iki klasör de ("Yeni klasör (2)", "claude klas") bulut oturumuna açılmıyor (`not_available`; olası neden: Windows'taki Claude uygulamasının güncellenmesi gerekiyor). GOREV.md kuralı gereği tarayıcı yolu yalnızca Chrome bağlıyken kullanılır, bu yüzden durduldu. Windsor yeniden denenmedi, görev Chrome yolunu istiyordu.
