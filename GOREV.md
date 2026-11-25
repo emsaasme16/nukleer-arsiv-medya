@@ -6,7 +6,7 @@
 
 - Kanal: **Nükleer Arşiv** (YouTube + Instagram `nukleer.arsiv`). Kitle: meraklı genel izleyici. Anlatım **nesnel**: yorum, övgü, korkutma yok.
 - **Kaynak kuralı:** Videoya giren her sayı ve iddia için kurumsal ya da hakemli bir kaynak sayfası (IAEA, OECD-NEA, UNSCEAR, ABD NRC ve DOE, EPA, üniversite ders kitapları) açılıp okunmalı. Arama özeti kaynak sayılmaz. Sektör kuruluşlarının (WNA gibi) rakamı bağımsız bir kamu kaynağıyla doğrulanmalı. Doğrulanamayan bilgi videoya girmez. "Hafızadan" bilgi yayına girmez.
-- Ekranda "ANİMASYON · ŞEMATİK, ÖLÇEKLİ DEĞİL" notu, son kartta kaynak adları, açıklamada kaynak bağlantıları olur. Seslendirmenin yapay ses olduğu açıklamaya yazılır.
+- Ekranda alt not yok. Son kartta kaynak adları ve DEVAMI KANALDA · BÖLÜM 1 yazar. Görseller pipeline/stil_3d/ ile 3D üretilir. Açıklamada kaynak bağlantıları olur. Seslendirmenin yapay ses olduğu açıklamaya yazılır.
 - Ton ve ses profili: README'deki ses bölümü. Her videoda aynı ses (Cem, eleven_v4) ve aynı işleme zinciri.
 - Görsel dil: koyu lacivert zemin, camgöbeği ve amber vurgu, büyük kalın altyazı, üst ve alt kenarda yazı yok, 1080×1920, 30 fps, 35-45 saniye.
 

@@ -21,7 +21,7 @@ Kaynaklar:
 - ABD EPA, "Radiation Basics": https://www.epa.gov/radiation/radiation-basics
 - ABD NRC, "Radiation Basics": https://www.nrc.gov/about-nrc/radiation/health-effects/radiation-basics.html
 
-Devamı kanalda.
+Devamı kanalda: Bölüm 1.
 
 #NükleerArşiv #nükleer #atom #fizik #bilim #shorts
 
@@ -47,7 +47,7 @@ Kaynaklar:
 - ABD Enerji Bakanlığı (DOE), "5 Fast Facts about Spent Nuclear Fuel": https://www.energy.gov/ne/articles/5-fast-facts-about-spent-nuclear-fuel
 - ABD Enerji Bakanlığı (DOE), "Nuclear 101: How Does a Nuclear Reactor Work?": https://www.energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work
 
-Devamı kanalda.
+Devamı kanalda: Bölüm 1.
 
 #NükleerArşiv #nükleer #atom #fizik #bilim #shorts
 

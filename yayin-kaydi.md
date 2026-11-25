@@ -30,3 +30,19 @@ Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 ## Windsor destek talebi
 
 - 2026-11-24: YouTube `upload_video` hız sınırı hatası için Windsor.ai destek talebi açıldı. Referans numarası: **55628234** (canlı sohbet: windsor.ai, e-posta: support@windsor.ai).
+
+## 3D yeniden üretim (2026-11-25)
+
+Beş videonun görüntüsü `pipeline/stil_3d/` ile 3D olarak yeniden üretildi; dosya adları (ve ham adresler) aynı kaldı. Ses akışları orijinal videolardan `-c:a copy` ile alındı, değişmedi (çözülmüş ses MD5'leri eski ve yeni dosyada aynı). Metin, rakam, sahne sırası ve zamanlama aynı. "ANİMASYON · ŞEMATİK, ÖLÇEKLİ DEĞİL" alt notu kaldırıldı; son kartta "DEVAMI KANALDA · BÖLÜM 1" yazar.
+
+3D yöntemi: gerçek 3D, moderngl + EGL (başsız, Mesa llvmpipe), mesh tabanlı (küre, yuvarlak kutu, silindir, torus, boru), Blinn-Phong + fresnel kenar ışığı, yumuşak gölge, bloom, hacimsel ışık huzmeleri, paralakslı toz (alan derinliği), hafif gren. 1080×1920, 30 fps, libx264 crf 18.
+
+| Video | Eski boyut | Yeni boyut | Süre |
+|---|---|---|---|
+| atomun-kutlesi-nerede.mp4 | 12,0 MB | 43,7 MB | 38,20 sn (aynı) |
+| cekirdek-neden-dagilmiyor.mp4 | 6,7 MB | 36,4 MB | 36,50 sn (aynı) |
+| muz-radyoaktif-mi.mp4 | 7,2 MB | 35,4 MB | 36,50 sn (aynı) |
+| radyasyon-neyle-durur.mp4 | 8,5 MB | 48,7 MB | 52,50 sn (aynı) |
+| kullanilmis-yakit-ne-kadar-yer-kaplar.mp4 | 8,6 MB | 50,7 MB | 56,00 sn (aynı) |
+
+Önizleme kareleri: `onizleme/`. Bu yeniden üretim hiçbir platforma yüklenmedi.

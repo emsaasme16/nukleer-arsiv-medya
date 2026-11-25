@@ -28,7 +28,7 @@ Cloud ortamı `nukleer-arsiv-medya` bu depo için kayıtlı. İzinli alan adlar�
 
 ## Video üretim akışı (Short, yaklaşık 38 saniye, 1080×1920, 30 fps)
 
-1. **Senaryo ve kaynaklar.** Plan belgesindeki kaynak protokolüne göre rakamlar doğrulanır. Ekranda "ANİMASYON · ŞEMATİK, ÖLÇEKLİ DEĞİL" notu bulunur. Son kartta kaynak adları yazılır.
+1. **Senaryo ve kaynaklar.** Plan belgesindeki kaynak protokolüne göre rakamlar doğrulanır. Ekranda alt not yok. Son kartta kaynak adları ve DEVAMI KANALDA · BÖLÜM 1 yazar. Görseller pipeline/stil_3d/ ile 3D üretilir.
 2. **Ses.** ElevenLabs bağlayıcısı ile `creative_generate_speech`: model `eleven_v4`, ses `mScWJwY9Ty24PwwvyNcA` (Cem), Türkçe, yönerge etiketleri `[curious] [softly] [slowly] [warmly] [pause]`. Sayılar metinde okunuşuna yakın yazılır ("Yüzde 99'undan"). Tek take yeter (`generations_count: 1`), 1 kredi ≈ 1 karakter.
 3. **Ses dosyasını almak.** `creative_get_generations` imzalı bir `elevenlabsusercontent.com` adresi döner. Çalışma ortamının ağ ayarında bu alan adı izinliyse `curl -o take.mp3 "<adres>"` ile inilir. İzinli değilse bu adım çalışmaz ve kullanıcının mp3'ü indirip sohbete yüklemesi gerekir. Her oturumda önce `curl -sI` ile erişimi dene.
 4. **Ses işleme.** `build4.py`: perde −1 yarım ton (`rubberband=pitch=0.943874`), 70 Hz yüksek geçiren, 200 Hz +1,5 dB, 3,2 kHz +2 dB, de-esser, hafif sıkıştırma, çok hafif oda yankısı, ses −17 LUFS. Müzik sese göre yaklaşık 14 dB altında (sidechain), final −14 LUFS ve tepe −1,5 dBFS. `alimiter` için `level=false` kullan.
