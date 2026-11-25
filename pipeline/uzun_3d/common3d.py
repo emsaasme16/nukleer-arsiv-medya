@@ -184,7 +184,7 @@ def T(txt, fontpath, size, color, maxw=960):
     if key in _cache:
         return _cache[key]
     # ok isaretleri (Poppins'te yok) DejaVu Sans Bold ile cizilir
-    ARR = "\u2190\u2192\u2194"
+    ARR = "\u2190\u2192\u2194\u207b\u2074\u2075\u2076\u2077\u2078\u2079\u2070"
     runs = []
     for ch in txt:
         f = F_GR if ch in ARR else fontpath

@@ -61,3 +61,25 @@ python3 kucuk_resim.py ../../bolum-01
 - Dosya GitHub için < 95 MB: 10 dakikada crf 22 + maxrate 1100k yeterli; büyükse maxrate'i düşür.
 - Grafikte eksen sayıları yok; yalnızca senaryodaki değerler etiketlenir (eğri şekli şematik, işaretli noktalar
   senaryodaki değerlerdir).
+
+## Bölüm 2 ve sonrası: gerçekçi 3D (`gercekci.py` + `modeller/`), 2026-11-26
+
+Kullanıcı kararı: tesisler, cihazlar ve olaylar gerçek hayattaki gibi görünen sinematik 3D sahnelerle anlatılır;
+soyut küreler yalnızca atom altı ölçekte. Ekranda "canlandırma / şematik / ölçekli değil" notu YOK.
+
+- `gercekci.py`: metre ölçekli, y yukarı dünya; `Sahne` (nesneler, parçacıklar, ışıklar, gökyüzü/sis/kostik ayarları),
+  `Cam(goz, hedef, fov, aperture)`, `ciz(S, cam, t)` -> uint8 RGB. PBR (GGX + Lambert, metal/pürüzlülük), prosedürel
+  dokular (`pat`: beton, ahsap, fircali, boya, toprak, cim, seramik, kafes, su, asfalt, kagit, karton), gölge haritası
+  (2048, PCF), SSAO (yarım çözünürlük), üstel yükseklik sisi, su altı kostik, yumuşak parçacıklar (buhar, kabarcık,
+  ışık noktası), alan derinliği, bloom, ACES, vinyet, gren. Görünüm kırpma (frustum) ana ve geometri geçişlerinde.
+  Hazır ortamlar: `gece`, `gunduz`, `ic_mekan`, `atom_ortami`.
+- `modeller/`: `santral.py` (PWR koruma kabı, türbin/yardımcı bina, X kolonlu hiperbolik kule + havuz + buhar, direk,
+  lamba, çit, insan, araç, tank, `plant_pwr` yerleşimi), `yakit.py` (pelet, kesitli çubuk, 17×17 demet, 193 demetlik
+  çekirdek, kesitli reaktör kabı), `kapan.py` (fare kapanı, top, masa, oda, deterministik zincir benzetimi),
+  `arsiv.py` (arşiv odası), `atom.py` (gerçek nükleon sayılı çekirdekler, U-236 -> Rb-93 + Cs-140 + 3n eşlemesi).
+  Henüz yok (sonraki bölümlerde eklenecek): BWR binası, türbin-jeneratör, pompa, vana, yakıt havuzu, kuru depolama kabı.
+- Hız (4 çekirdek, llvmpipe): çoğu kare 0,4-0,9 sn; yakın demet çekimi 3-5 sn. Çok süreçli render ~1-1,5 saat.
+- Dikkat: GLSL `pow(negatif, x)` NaN verir ve bloom ile siyah bloklara yayılır; tabanları `clamp` et.
+  Poppins'te → ↔ ⁻ ⁴ yok: `T()` ve `card()` bunları DejaVu ile çizer.
+- Bölüm 2: `TAIL=14 python3 sesler.py $WORK`, `WORK=$WORK python3 bolum02.py still 12 200`, `... render`,
+  `python3 kucuk_resim02.py ../../bolum-02`. Metin zamanlaması `at(sahne, "ifade")` (karakter oranı) ile senaryodan.

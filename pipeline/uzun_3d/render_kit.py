@@ -30,7 +30,15 @@ def card(lines, size=56, amber=False, padx=40, pady=22):
     if key in _cache:
         return _cache[key]
     font = ImageFont.truetype(F_B, size)
-    boxes = [font.getbbox(l) for l in lines]
+    _A = "\u2190\u2192\u2194\u207b\u2074\u2075\u2076\u2077\u2078\u2079\u2070"
+    _fb = ImageFont.truetype(F_GR, int(size * 0.92))
+    boxes = []
+    for l in lines:
+        bb = font.getbbox(l)
+        if any(ch in _A for ch in l):
+            wl = sum((_fb if ch in _A else font).getlength(ch) for ch in l)
+            bb = (0, bb[1], int(wl), bb[3])
+        boxes.append(bb)
     lh = int(size * 1.25)
     tw = max(b[2] - b[0] for b in boxes)
     w = int(tw + 2 * padx + 8)
@@ -44,10 +52,18 @@ def card(lines, size=56, amber=False, padx=40, pady=22):
                         outline=edge + (255,), width=3 * S)
     im = im.resize((w, h), Image.LANCZOS)
     d = ImageDraw.Draw(im)
+    ARR = "\u2190\u2192\u2194\u207b\u2074\u2075\u2076\u2077\u2078\u2079\u2070"
+    fb = ImageFont.truetype(F_GR, int(size * 0.92))
     for i, (l, b) in enumerate(zip(lines, boxes)):
         x = (w - (b[2] - b[0])) / 2 - b[0]
         y = 4 + pady + i * lh - font.getbbox("Hg")[1]
-        d.text((x, y), l, font=font, fill=NAVYTXT + (255,))
+        if not any(ch in ARR for ch in l):
+            d.text((x, y), l, font=font, fill=NAVYTXT + (255,))
+            continue
+        for ch in l:       # Poppins'te olmayan ok/ust simgeler DejaVu ile
+            f = fb if ch in ARR else font
+            d.text((x, y + (size * 0.06 if f is fb else 0)), ch, font=f, fill=NAVYTXT + (255,))
+            x += f.getlength(ch)
     arr = np.array(im).astype(np.float32)
     a = arr[..., 3] / 255.0
     # hafif dis golge

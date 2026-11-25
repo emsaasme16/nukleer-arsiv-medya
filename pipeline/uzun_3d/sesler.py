@@ -18,7 +18,7 @@ from scipy.io import wavfile
 SR = 44100
 LEAD = 1.0      # ilk sesten once
 GAP = 0.8       # sahneler arasi sessizlik
-TAIL = 6.0      # son sesten sonra (bitis karti)
+TAIL = float(os.environ.get("TAIL", "6.0"))   # son sesten sonra (bitis karti); Bolum 2: TAIL=14
 rng = np.random.default_rng(11)
 
 

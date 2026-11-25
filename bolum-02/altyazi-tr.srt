@@ -1,0 +1,847 @@
+1
+00:00:01,000 --> 00:00:01,273
+Gece.
+
+2
+00:00:01,323 --> 00:00:03,796
+Bir nükleer santral sessizce çalışıyor.
+
+3
+00:00:03,846 --> 00:00:07,159
+Soğutma kulesinden beyaz bir buhar bulutu
+yükseliyor.
+
+4
+00:00:07,209 --> 00:00:12,527
+Beton bir kubbenin altında, kalın çelikten
+bir kabın içinde, suyla dolu karanlık bir
+
+5
+00:00:12,577 --> 00:00:13,238
+boşluk var.
+
+6
+00:00:13,288 --> 00:00:15,308
+Bu su, aynı anda yakıtı soğutur.
+
+7
+00:00:16,134 --> 00:00:17,572
+Burası reaktörün kalbi.
+
+8
+00:00:17,622 --> 00:00:21,905
+Suyun içinde, dimdik ve sık sıralar
+halinde yakıt demetleri duruyor.
+
+9
+00:00:21,955 --> 00:00:26,949
+ABD Nükleer Düzenleme Kurulu'nun anlattığı
+bazı santrallerde bu demetlerden yüz
+
+10
+00:00:26,999 --> 00:00:28,178
+doksan üç tane var.
+
+11
+00:00:29,004 --> 00:00:30,377
+Bir demete yaklaşalım.
+
+12
+00:00:30,427 --> 00:00:35,098
+Demet, on yediye on yedilik bir kare
+düzende dizilmiş ince metal tüplerden
+
+13
+00:00:35,148 --> 00:00:35,681
+oluşuyor.
+
+14
+00:00:35,731 --> 00:00:40,725
+Her tüp yaklaşık üç virgül yedi metre
+boyunda ve içinde üst üste dizilmiş küçük
+
+15
+00:00:40,775 --> 00:00:42,665
+seramik uranyum peletleri var.
+
+16
+00:00:42,715 --> 00:00:45,058
+Tüpler zirkonyum alaşımından yapılır;
+
+17
+00:00:45,108 --> 00:00:49,392
+içleri helyum gazıyla basınçlandırılır ve
+uçları kaynakla kapatılır.
+
+18
+00:00:49,442 --> 00:00:54,113
+Normal çalışmada bu peletlerin ortalama
+sıcaklığı yaklaşık yedi yüz altmış
+
+19
+00:00:54,163 --> 00:00:55,212
+santigrat derece.
+
+20
+00:00:56,039 --> 00:00:59,610
+Bu ısıyı ne bir alev üretiyor ne de bir
+elektrik direnci.
+
+21
+00:00:59,660 --> 00:01:03,556
+Kaynağı, peletlerin içinde tekrar tekrar
+yaşanan tek bir olay:
+
+22
+00:01:03,606 --> 00:01:05,625
+bir atom çekirdeğinin bölünmesi.
+
+23
+00:01:05,675 --> 00:01:06,919
+Buna fisyon diyoruz.
+
+24
+00:01:07,745 --> 00:01:12,222
+Geçen bölüm, bir nötronun uranyum
+çekirdeğine yaklaştığı anda bitmişti.
+
+25
+00:01:12,272 --> 00:01:14,421
+Bugün o anın devamını izleyeceğiz.
+
+26
+00:01:14,471 --> 00:01:15,132
+Sorumuz şu:
+
+27
+00:01:15,182 --> 00:01:17,590
+bir nötron, bir çekirdeği nasıl böler?
+
+28
+00:01:18,440 --> 00:01:20,161
+Hikâye bir keşifle başlıyor.
+
+29
+00:01:20,211 --> 00:01:23,703
+Nötron, çekirdeğin parçaları arasında en
+son bulunanıydı.
+
+30
+00:01:23,753 --> 00:01:28,953
+ABD Enerji Bakanlığı'nın el kitabına göre
+ancak bin dokuz yüz otuz ikide keşfedildi.
+
+31
+00:01:29,003 --> 00:01:32,305
+Kütlesi protonunkine çok yakın, ama
+elektrik yükü yok.
+
+32
+00:01:33,114 --> 00:01:37,808
+Altı yıl sonra, bin dokuz yüz otuz
+sekizde, Otto Hahn, Lise Meitner ve Fritz
+
+33
+00:01:37,858 --> 00:01:42,299
+Strassmann elementleri nötronlarla
+bombardıman ederken fisyonu keşfetti.
+
+34
+00:01:43,108 --> 00:01:46,410
+Bugün Nükleer Düzenleme Kurulu fisyonu
+şöyle tanımlar:
+
+35
+00:01:46,460 --> 00:01:47,739
+bir atomun bölünmesi.
+
+36
+00:01:47,789 --> 00:01:52,988
+Ağır çekirdek parçalara ayrılır, en az iki
+hafif elementin çekirdeği oluşur ve kayda
+
+37
+00:01:53,038 --> 00:01:56,214
+değer bir enerji, çoğunlukla ısı olarak
+açığa çıkar.
+
+38
+00:01:56,264 --> 00:02:00,895
+Kurula göre bu bölünme çoğunlukla,
+çekirdeğin bir nötron yakalayıp kararsız
+
+39
+00:02:00,945 --> 00:02:02,350
+hale gelmesiyle başlar.
+
+40
+00:02:03,159 --> 00:02:04,247
+Peki neden nötron?
+
+41
+00:02:04,297 --> 00:02:06,840
+Neden çekirdeğe bir proton fırlatmıyoruz?
+
+42
+00:02:06,890 --> 00:02:09,750
+Cevap, geçen bölümde gördüğümüz itişmede
+saklı.
+
+43
+00:02:10,600 --> 00:02:13,149
+Uranyum çekirdeğinde doksan iki proton
+var.
+
+44
+00:02:13,199 --> 00:02:14,201
+Hepsi artı yüklü.
+
+45
+00:02:14,251 --> 00:02:18,966
+Enerji Bakanlığı'nın el kitabı, protonlar
+arasındaki bu elektrik itmesini uzun
+
+46
+00:02:19,016 --> 00:02:20,389
+menzilli diye tanımlar.
+
+47
+00:02:21,182 --> 00:02:23,916
+Şimdi çekirdeğe bir proton gönderdiğini
+düşün.
+
+48
+00:02:23,966 --> 00:02:26,825
+Yaklaştıkça itme büyür ve proton yolundan
+sapar.
+
+49
+00:02:26,875 --> 00:02:30,290
+Geçen bölümde gördüğümüz güçlü kuvvet ise
+onu kurtaramaz:
+
+50
+00:02:30,340 --> 00:02:34,931
+el kitabına göre nükleer kuvvetin
+çekirdeğin boyutlarının ötesinde neredeyse
+
+51
+00:02:34,981 --> 00:02:36,045
+hiç etkisi yoktur.
+
+52
+00:02:36,095 --> 00:02:40,191
+Çekirdeğe neredeyse değene kadar protonu
+karşılayan tek şey itmedir.
+
+53
+00:02:40,983 --> 00:02:42,233
+Nötron ise yüksüzdür.
+
+54
+00:02:42,283 --> 00:02:44,522
+Onu iten bir elektrik kuvveti yoktur.
+
+55
+00:02:44,572 --> 00:02:47,245
+Çekirdeğin kapısına kadar engelsiz
+gelebilir.
+
+56
+00:02:48,038 --> 00:02:52,505
+Üstelik uranyum iki yüz otuz beş için
+nötronun hızlı olması bile gerekmez.
+
+57
+00:02:52,555 --> 00:02:57,022
+El kitabına göre bu çekirdek, hareket
+enerjisi neredeyse sıfır olan termal
+
+58
+00:02:57,072 --> 00:02:58,445
+nötronlarla da bölünür.
+
+59
+00:02:58,495 --> 00:03:03,210
+Bu yavaş nötronlar, yirmi santigrat
+derecede saniyede yaklaşık iki bin iki yüz
+
+60
+00:03:03,260 --> 00:03:04,138
+metre yol alır.
+
+61
+00:03:04,188 --> 00:03:05,871
+Bizim ölçeğimizde çok hızlı;
+
+62
+00:03:05,921 --> 00:03:08,470
+çekirdeklerin dünyasında ise yavaş
+sayılır.
+
+63
+00:03:09,320 --> 00:03:10,718
+Nötron çekirdeğe girdi.
+
+64
+00:03:10,768 --> 00:03:11,726
+Şimdi ne oluyor?
+
+65
+00:03:11,776 --> 00:03:15,441
+Enerji Bakanlığı'nın el kitabı bunu bir
+benzetmeyle anlatır:
+
+66
+00:03:15,491 --> 00:03:17,834
+çekirdeği bir sıvı damlası gibi düşün.
+
+67
+00:03:18,640 --> 00:03:23,879
+Damlayı bir arada tutan kuvvetler onu küre
+biçiminde tutmaya çalışır ve her bozulmaya
+
+68
+00:03:23,929 --> 00:03:24,383
+direnir.
+
+69
+00:03:24,433 --> 00:03:26,839
+Çekirdekte bu işi nükleer kuvvet yapar.
+
+70
+00:03:27,644 --> 00:03:31,939
+Nötron yakalandığında bileşik çekirdek
+denen yeni bir çekirdek oluşur:
+
+71
+00:03:31,989 --> 00:03:33,577
+uranyum iki yüz otuz altı.
+
+72
+00:03:33,627 --> 00:03:35,529
+Bu çekirdek uyarılmış haldedir.
+
+73
+00:03:35,579 --> 00:03:40,063
+Aldığı enerji, nötronun bağlanırken
+getirdiği enerji ile nötronun hareket
+
+74
+00:03:40,113 --> 00:03:41,511
+enerjisinin toplamıdır.
+
+75
+00:03:42,317 --> 00:03:44,533
+Bu enerjiyle damla titremeye başlar.
+
+76
+00:03:44,583 --> 00:03:46,297
+Uzar, kısalır, yeniden uzar.
+
+77
+00:03:46,347 --> 00:03:51,460
+Enerji yeterince büyükse damla bir halter
+gibi iki ucu kalın, ortası ince bir biçim
+
+78
+00:03:51,510 --> 00:03:51,775
+alır.
+
+79
+00:03:52,581 --> 00:03:53,538
+Kritik an budur.
+
+80
+00:03:53,588 --> 00:03:57,757
+Nükleer kuvvetin menzili çok kısadır ve
+incelen boyunda zayıf kalır.
+
+81
+00:03:57,807 --> 00:04:02,228
+Protonlar arasındaki itme ise uzun
+menzillidir ve neredeyse eskisi kadar
+
+82
+00:04:02,278 --> 00:04:02,795
+güçlüdür.
+
+83
+00:04:02,845 --> 00:04:05,440
+İtme baskın gelince çekirdek ikiye
+ayrılır.
+
+84
+00:04:06,245 --> 00:04:08,084
+Peki yeterince büyük ne demek?
+
+85
+00:04:08,134 --> 00:04:12,870
+El kitabının tablosuna göre uranyum iki
+yüz otuz beşin bölünmesi için gereken
+
+86
+00:04:12,920 --> 00:04:15,767
+kritik enerji altı virgül beş
+megaelektronvolt.
+
+87
+00:04:15,817 --> 00:04:19,482
+Nötronun bağlanırken getirdiği enerji ise
+altı virgül sekiz.
+
+88
+00:04:19,532 --> 00:04:20,993
+Gelen, gerekenden fazla:
+
+89
+00:04:21,043 --> 00:04:22,757
+yavaş bir nötron bile yeter.
+
+90
+00:04:23,562 --> 00:04:26,535
+Uranyum iki yüz otuz sekizde tablo tersine
+döner.
+
+91
+00:04:26,585 --> 00:04:28,739
+Gereken yedi, gelen beş virgül beş.
+
+92
+00:04:28,789 --> 00:04:33,776
+Eksik kalan bir buçuk megaelektronvoltu
+nötron kendi hızıyla getirmek zorundadır.
+
+93
+00:04:33,826 --> 00:04:37,995
+Bu yüzden iki yüz otuz sekiz yalnızca
+hızlı nötronlarla bölünebilir.
+
+94
+00:04:38,801 --> 00:04:42,026
+El kitabı farkın nedenini tek-çift
+etkisiyle açıklar:
+
+95
+00:04:42,076 --> 00:04:46,245
+çift sayıda nötron ya da proton taşıyan
+çekirdekler daha kararlıdır.
+
+96
+00:04:46,295 --> 00:04:49,204
+Uranyum iki yüz otuz beşin nötron sayısı
+tektir;
+
+97
+00:04:49,254 --> 00:04:53,801
+eklenen nötron onu çifte tamamlar ve bu
+yüzden belirgin biçimde daha fazla
+
+98
+00:04:53,851 --> 00:04:55,690
+bağlanma enerjisi açığa çıkar.
+
+99
+00:04:55,740 --> 00:05:00,980
+ABD Nükleer Düzenleme Kurulu'na göre doğal
+uranyumun yüzde doksan dokuz virgül üçü bu
+
+100
+00:05:01,030 --> 00:05:01,609
+izotoptur.
+
+101
+00:05:01,659 --> 00:05:06,710
+Termal nötronla bölünebilen iki yüz otuz
+beş ise yalnızca yüzde sıfır virgül yedi.
+
+102
+00:05:07,560 --> 00:05:08,784
+Bölünme gerçekleşti.
+
+103
+00:05:08,834 --> 00:05:09,803
+Ortada ne kaldı?
+
+104
+00:05:10,617 --> 00:05:14,962
+Enerji Bakanlığı'nın el kitabındaki
+örnekte uranyum iki yüz otuz altı;
+
+105
+00:05:15,012 --> 00:05:18,593
+rubidyum doksan üç, sezyum yüz kırk ve üç
+nötrona ayrılır.
+
+106
+00:05:18,643 --> 00:05:20,949
+Parçalar her seferinde aynı değildir.
+
+107
+00:05:20,999 --> 00:05:25,344
+Uranyum iki yüz otuz beşin termal
+fisyonunda en olası parçaların kütle
+
+108
+00:05:25,394 --> 00:05:28,210
+numaraları yaklaşık doksan beş ve yüz
+kırktır.
+
+109
+00:05:28,260 --> 00:05:29,548
+Parçalar kararsızdır;
+
+110
+00:05:29,598 --> 00:05:34,134
+nötronları protonlarına göre fazla olduğu
+için art arda beta bozunmasıyla
+
+111
+00:05:34,184 --> 00:05:34,835
+dönüşürler.
+
+112
+00:05:34,885 --> 00:05:39,866
+El kitabındaki örnekte rubidyum doksan üç
+sonunda niyobyum doksan üç, sezyum yüz
+
+113
+00:05:39,916 --> 00:05:41,777
+kırk ise seryum yüz kırk olur.
+
+114
+00:05:42,592 --> 00:05:47,382
+Nükleer Düzenleme Kurulu'na göre bu
+tepkime genellikle gama ışınımı ve iki ya
+
+115
+00:05:47,432 --> 00:05:49,611
+da daha fazla yeni nötron da salar.
+
+116
+00:05:49,661 --> 00:05:52,796
+El kitabına göre ortalama sayı iki virgül
+dört iki.
+
+117
+00:05:53,611 --> 00:05:54,197
+Ve enerji.
+
+118
+00:05:54,247 --> 00:05:59,038
+Bir uranyum iki yüz otuz beş fisyonu
+ortalama iki yüz megaelektronvolt enerji
+
+119
+00:05:59,088 --> 00:05:59,930
+açığa çıkarır.
+
+120
+00:05:59,980 --> 00:06:04,834
+Bunun yüz altmış yedisi iki parçanın
+hareket enerjisidir, yani beşte dördünden
+
+121
+00:06:04,884 --> 00:06:05,344
+fazlası.
+
+122
+00:06:06,158 --> 00:06:08,783
+Bu parçalar artı yüklüdür ve çok hızlıdır.
+
+123
+00:06:08,833 --> 00:06:13,051
+Geçtikleri yerde çevredeki atomların
+elektronlarını koparır, hareket
+
+124
+00:06:13,101 --> 00:06:15,726
+enerjilerini onlara aktarır ve
+yavaşlarlar.
+
+125
+00:06:15,776 --> 00:06:18,656
+Aktarılan enerji yakıtın sıcaklığını
+yükseltir.
+
+126
+00:06:18,706 --> 00:06:21,140
+Peletlerdeki ısının kaynağı işte budur.
+
+127
+00:06:21,954 --> 00:06:26,745
+Enerjinin yaklaşık yüzde yedisi, yani on
+üç megaelektronvolt kadarı ise hemen
+
+128
+00:06:26,795 --> 00:06:29,675
+değil, parçalar bozundukça zamanla açığa
+çıkar.
+
+129
+00:06:29,725 --> 00:06:34,324
+El kitabına göre reaktör durdurulduktan
+sonra da bu ısı sürer ve reaktörün
+
+130
+00:06:34,374 --> 00:06:35,598
+soğutulması gerekir.
+
+131
+00:06:35,648 --> 00:06:37,382
+Buna ileride geri döneceğiz.
+
+132
+00:06:38,196 --> 00:06:39,929
+Bütün bunlar ne kadar sürer?
+
+133
+00:06:39,979 --> 00:06:45,216
+El kitabına göre nötronun yakalanmasından
+fisyona ve yeni hızlı nötronların çıkışına
+
+134
+00:06:45,266 --> 00:06:48,528
+kadar geçen süre yaklaşık on üzeri eksi on
+üç saniye.
+
+135
+00:06:48,578 --> 00:06:50,630
+Yani saniyenin on trilyonda biri.
+
+136
+00:06:51,480 --> 00:06:52,943
+Şimdi bir masaya geçelim.
+
+137
+00:06:52,993 --> 00:06:56,636
+Geniş bir masanın üstüne yüzlerce fare
+kapanı kurduğunu düşün.
+
+138
+00:06:56,686 --> 00:07:00,329
+Her kapanın yayı gergin ve üstünde iki
+ping-pong topu duruyor.
+
+139
+00:07:01,105 --> 00:07:02,811
+Masaya tek bir top atıyorsun.
+
+140
+00:07:02,861 --> 00:07:07,654
+Top bir kapana düşüyor, kapan şak diye
+kapanıyor ve iki topunu havaya fırlatıyor.
+
+141
+00:07:07,704 --> 00:07:11,528
+O iki top başka iki kapanı tetikliyor,
+onlar dört top fırlatıyor.
+
+142
+00:07:11,578 --> 00:07:14,979
+Birkaç saniye içinde masa, havada uçuşan
+toplarla doluyor.
+
+143
+00:07:15,755 --> 00:07:19,821
+Kapan bir uranyum iki yüz otuz beş
+çekirdeği, top bir nötron, kapanın
+
+144
+00:07:19,871 --> 00:07:21,274
+kapanması da bir fisyon.
+
+145
+00:07:21,324 --> 00:07:25,149
+Nükleer Düzenleme Kurulu zincirleme
+tepkimeyi tam böyle tanımlar:
+
+146
+00:07:25,199 --> 00:07:27,388
+kendini yeniden başlatan bir tepkime.
+
+147
+00:07:27,438 --> 00:07:31,989
+Bir fisyondan çıkan nötronlar başka
+çekirdeklerce yutulup yeni fisyonlara yol
+
+148
+00:07:32,039 --> 00:07:32,534
+açabilir.
+
+149
+00:07:33,310 --> 00:07:35,077
+Ama her top bir kapana düşmez.
+
+150
+00:07:35,127 --> 00:07:39,132
+Bazısı masanın dışına uçar, bazısı zaten
+kapanmış bir kapana çarpar.
+
+151
+00:07:39,182 --> 00:07:43,733
+Reaktörde de nötronların bir kısmı dışarı
+kaçar ya da bölünmeyen malzemelerde
+
+152
+00:07:43,783 --> 00:07:44,217
+yutulur.
+
+153
+00:07:44,267 --> 00:07:49,000
+Kurula göre zincir, açığa çıkan nötron
+sayısı kaybedilenlere eşit ya da onlardan
+
+154
+00:07:49,050 --> 00:07:51,361
+fazla olduğunda kendi kendini sürdürür.
+
+155
+00:07:52,137 --> 00:07:53,177
+Bir fark daha var.
+
+156
+00:07:53,227 --> 00:07:57,112
+Fisyondan çıkan nötronlar hızlıdır,
+ortalama iki megaelektronvolt.
+
+157
+00:07:57,162 --> 00:08:01,773
+El kitabındaki örneğe göre su, bir nötronu
+yaklaşık on dokuz çarpışmada termal
+
+158
+00:08:01,823 --> 00:08:03,347
+enerjiye kadar yavaşlatır.
+
+159
+00:08:03,397 --> 00:08:08,432
+Enerji Bakanlığı'na göre reaktördeki su bu
+yüzden hem soğutucu hem de yavaşlatıcıdır.
+
+160
+00:08:09,208 --> 00:08:13,880
+El kitabına göre su ile yavaşlatılan
+reaktörlerde termal hale gelen bir nötron,
+
+161
+00:08:13,930 --> 00:08:18,662
+yutulmadan önce yaklaşık on üzeri eksi
+dört saniye, yani saniyenin on binde biri
+
+162
+00:08:18,712 --> 00:08:19,510
+kadar dolaşır.
+
+163
+00:08:20,360 --> 00:08:21,721
+Kısa bir özet yapalım.
+
+164
+00:08:22,540 --> 00:08:22,747
+Bir:
+
+165
+00:08:22,797 --> 00:08:26,082
+nötron yüksüz olduğu için çekirdeğe
+itilmeden ulaşır.
+
+166
+00:08:26,132 --> 00:08:26,338
+İki:
+
+167
+00:08:26,388 --> 00:08:31,148
+nötronu yutan çekirdek bir sıvı damlası
+gibi titreşir, uzar ve kritik enerji
+
+168
+00:08:31,198 --> 00:08:32,687
+aşılmışsa ikiye bölünür.
+
+169
+00:08:32,737 --> 00:08:32,880
+Üç:
+
+170
+00:08:32,930 --> 00:08:36,407
+uranyum iki yüz otuz beş yavaş nötronlarla
+bile bölünür;
+
+171
+00:08:36,457 --> 00:08:38,844
+iki yüz otuz sekiz hızlı nötron ister.
+
+172
+00:08:38,894 --> 00:08:39,164
+Dört:
+
+173
+00:08:39,214 --> 00:08:43,269
+bir fisyon ortalama iki yüz
+megaelektronvolt verir ve bunun büyük
+
+174
+00:08:43,319 --> 00:08:45,962
+kısmı parçaların hareketiyle ısıya
+dönüşür.
+
+175
+00:08:46,012 --> 00:08:46,219
+Beş:
+
+176
+00:08:46,269 --> 00:08:50,900
+her fisyon iki ya da daha fazla yeni
+nötron salar ve zincir buradan doğar.
+
+177
+00:08:51,720 --> 00:08:54,812
+Fare kapanlı masada her şey birkaç
+saniyede biter.
+
+178
+00:08:54,862 --> 00:08:58,083
+Bir reaktörde ise aynı zincirin hızı
+kontrol edilir;
+
+179
+00:08:58,133 --> 00:09:03,214
+Enerji Bakanlığı'na göre kontrol çubukları
+tepkime hızını düşürmek ya da artırmak
+
+180
+00:09:03,264 --> 00:09:04,240
+için kullanılır.
+
+181
+00:09:04,290 --> 00:09:06,677
+Peki zincir nasıl tam dengede tutulur?
+
+182
+00:09:06,727 --> 00:09:08,601
+Bir sonraki bölümün konusu bu:
+
+183
+00:09:08,651 --> 00:09:10,653
+zincirleme tepkime ve kritiklik.
+
+184
+00:09:10,703 --> 00:09:15,527
+Orada masadaki topların neden birkaç
+saniyede tükendiğini ve bir reaktörün bu
+
+185
+00:09:15,577 --> 00:09:18,284
+dengeyi nasıl kurduğunu adım adım
+göreceğiz.
+
+186
+00:09:18,334 --> 00:09:22,132
+Sence masadaki toplardan hiçbiri dışarı
+kaçmasaydı ne olurdu?
+
+187
+00:09:22,182 --> 00:09:23,030
+Yorumlara yaz.
+
