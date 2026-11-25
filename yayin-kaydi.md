@@ -19,6 +19,7 @@ Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 ## YouTube yükleme denemeleri
 
 - 2026-11-24 (2. oturum): Claude in Chrome yine bağlı değildi, kullanıcının bilgisayarı da oturuma bağlı değildi. Kullanıcının isteğiyle Windsor `upload_video` ile denendi: "Çekirdek" videosu 2 kez, "Muz" videosu 1 kez (yaklaşık 3 dakika arayla). Üçü de "YouTube rate-limited the upload" hatası verdi. Windsor `get_data` son 29 günde kanalda video göstermedi, yani denemeler çift video oluşturmamış görünüyor (veri önbellekten okundu). Bir saat sonra otomatik yeniden deneme planlandı.
+- 2026-11-25 00:43 UTC: Planlı yeniden deneme. "Çekirdek" yüklemesini kullanıcı onaylamadı (çağrı reddedildi), yüklenmedi. "Muz" videosu kullanıcının isteğiyle 2 kez denendi, ikisi de hız sınırı hatası verdi. Bundan sonraki saatlik denemeler yalnızca "Muz" için yapılacak.
 
 ## Windsor destek talebi
 
