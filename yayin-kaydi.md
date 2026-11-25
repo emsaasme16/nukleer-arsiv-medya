@@ -60,3 +60,9 @@ Beş videonun görüntüsü `pipeline/stil_3d/` ile 3D olarak yeniden üretildi;
 
 - Kullanıcı isteğiyle beş videonun YouTube açıklamalarına `#shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending` (eksik olanlar), Instagram açıklamalarına `#shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim` (eksik olanlar) eklendi; YouTube Studio ve instagram.com düzenleme ekranından, Claude in Chrome ile. Kaydedildikten sonra sayfa yenilenip doğrulandı.
 - TikTok: web'de (TikTok Studio ve video sayfası) yayınlanmış videonun açıklaması düzenlenemiyor; mevcut beş TikTok videosu etiketsiz kaldı. Yeni videolarda `#shorts #keşfet #fyp #foryou #keşfetbeniöneçıkar` yüklerken eklenecek (günlük yayın görevi güncellendi).
+
+## Bölüm 1 uzun video (2026-11-25)
+
+- YouTube: https://youtu.be/CQmwKSi_EmA · "Atomun İçinde Ne Saklı? Çekirdek Enerjiyi Nasıl Saklar | Nükleer Arşiv Bölüm 1" · Herkese açık, Eğitim, çocuklara özel değil, ücretli tanıtım yok, yapay zekâ kullanımı: Evet, 27 etiket, küçük resim kucuk-resim-1.png. Claude in Chrome ile YouTube Studio'dan yüklendi. Açıklama bolum-01/yayin.md + keşfet etiketleri.
+- Altyazı (bolum-01/altyazi-tr.srt) henüz yüklenmedi.
+- TikTok notu: 5 video etiketli olarak yeniden yüklendi (Çekirdek 7712157965570149633, Muz 7712158573207358741, Radyasyon 7712159199039393044, Atom 7712159834023431444, Yakıt 7712160514423475476). Yakıt yanlışlıkla ikinci kez yüklendi (7712161445026516230); bu kopya ve 5 eski etiketsiz video henüz silinmedi.
