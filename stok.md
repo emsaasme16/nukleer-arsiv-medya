@@ -7,32 +7,6 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 1. radyasyon-neyle-durur.mp4 (52,5 sn)
-
-**YouTube başlığı:** Radyasyon neyle durur? Kâğıt, metal, kurşun #Shorts
-
-**YouTube açıklaması:**
-
-Radyasyonun üç temel türü farklı engellerle durur. Alfa parçacıkları (2 proton + 2 nötron) bir kâğıt yaprağıyla, hatta derinin dış katmanıyla durur. Beta parçacıkları kâğıdı geçer ama ince bir metal levha (ör. alüminyum) ya da bir tahta blok onları durdurur. Kütlesiz, saf enerji olan gama ışınları için santimetrelerce kurşun ya da kalın beton gerekir. Alfa dışarıdan pek zarar vermez; solunur ya da yutulursa vücudun içinde ciddi hasar verebilir.
-
-Animasyon şematiktir, ölçekli değildir. Seslendirme yapay ses ile yapılmıştır.
-
-Kaynaklar:
-- ABD EPA, "Radiation Basics": https://www.epa.gov/radiation/radiation-basics
-- ABD NRC, "Radiation Basics": https://www.nrc.gov/about-nrc/radiation/health-effects/radiation-basics.html
-
-Devamı kanalda: Bölüm 1.
-
-#NükleerArşiv #nükleer #atom #fizik #bilim #shorts
-
-**Instagram metni:** Radyasyon neyle durur? Alfa: kâğıt. Beta: ince metal. Gama: kurşun ya da kalın beton. Ama alfa vücuda girerse tehlikelidir. Kaynaklar: ABD EPA ve ABD NRC, "Radiation Basics". Bağlantılar YouTube açıklamasında. Animasyon şematiktir; seslendirme yapay sestir. #NükleerArşiv #nükleer #atom #fizik #bilim
-
-**Kaynaktan okunan cümleler:**
-- EPA: "Alpha particles lack the energy to penetrate even the outer layer of skin" / "If alpha-emitters are inhaled, swallowed, or get into the body through a cut, the alpha particles can damage sensitive living tissue." / beta "can be stopped by a layer of clothing or by a thin layer of a substance such as aluminum" / gamma "several inches of a dense material like lead, or even a few feet of concrete may be required to stop them" / gamma "weightless packets of energy called photons".
-- NRC: alpha "can be blocked by a sheet of paper, skin, or even a few inches of air" / beta "can travel a few feet in the air ... a thin sheet of metal or plastic or a block of wood can stop beta particles" / gamma "Several feet of concrete or a few inches of dense material (such as lead) are able to block these types of radiation."
-
----
-
 ## 2. kullanilmis-yakit-ne-kadar-yer-kaplar.mp4 (56 sn)
 
 **YouTube başlığı:** Kullanılmış nükleer yakıt ne kadar yer kaplar? #Shorts
