@@ -4,10 +4,14 @@
 |---|---|---|---|---|---|
 | 2026-11-24 | Çekirdek neden dağılmıyor? | Yayınlandı (2026-11-25, kullanıcı YouTube Studio'dan elle yükledi; bağlantı eklenecek) | 18132193852798937 | ABD DOE, "DOE Explains...The Strong Force" (energy.gov/science/doe-explainsthe-strong-force) | YouTube: Windsor `upload_video` üç denemede de (son deneme kullanıcı isteğiyle, birkaç dakika sonra) "YouTube rate-limited the upload" hatası verdi. Claude in Chrome bağlı değildi, tarayıcı yolu denenmedi. |
 | 2026-11-24 | Mit mi, gerçek mi? Muz radyoaktif midir? | Yayınlandı (2026-11-25, kullanıcı YouTube Studio'dan elle yükledi; bağlantı eklenecek) | 18436233994149942 | ABD EPA, "Natural Radioactivity in Food" (epa.gov/radtown/natural-radioactivity-food); ABD NRC, "Doses in Our Daily Lives" (nrc.gov/about-nrc/radiation/around-us/doses-daily-lives.html); ABD EPA, "Radiation Sources and Doses" (epa.gov/radiation/radiation-sources-and-doses) | 1.000 muz = NRC göğüs röntgeni 10 mrem ÷ EPA 0,01 mrem/muz (hesap). |
+| 2026-11-25 | Radyasyon neyle durur? Kâğıt, metal, kurşun | https://youtube.com/shorts/cFmZRxZfyQw (2026-11-25, Claude in Chrome ile YouTube Studio'dan yüklendi) | Henüz paylaşılmadı | ABD EPA, "Radiation Basics" (epa.gov/radiation/radiation-basics); ABD NRC, "Radiation Basics" (nrc.gov/about-nrc/radiation/health-effects/radiation-basics.html) | Herkese açık, Eğitim, çocuklara özel değil, ücretli tanıtım yok, yapay zekâ kullanımı: Evet. |
+| 2026-11-25 | Kullanılmış nükleer yakıt ne kadar yer kaplar? | https://youtube.com/shorts/REJZtlvW_fA (2026-11-25, Claude in Chrome ile YouTube Studio'dan yüklendi) | Henüz paylaşılmadı | ABD DOE, "5 Fast Facts about Spent Nuclear Fuel" (energy.gov/ne/articles/5-fast-facts-about-spent-nuclear-fuel); ABD DOE, "Nuclear 101: How Does a Nuclear Reactor Work?" (energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work) | Herkese açık, Eğitim, çocuklara özel değil, ücretli tanıtım yok, yapay zekâ kullanımı: Evet. |
 
 Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 - https://raw.githubusercontent.com/emsaasme16/nukleer-arsiv-medya/claude/ecstatic-thompson-hd3p6u/cekirdek-neden-dagilmiyor.mp4
 - https://raw.githubusercontent.com/emsaasme16/nukleer-arsiv-medya/claude/ecstatic-thompson-hd3p6u/muz-radyoaktif-mi.mp4
+- https://raw.githubusercontent.com/emsaasme16/nukleer-arsiv-medya/claude/ecstatic-thompson-hd3p6u/radyasyon-neyle-durur.mp4
+- https://raw.githubusercontent.com/emsaasme16/nukleer-arsiv-medya/claude/ecstatic-thompson-hd3p6u/kullanilmis-yakit-ne-kadar-yer-kaplar.mp4
 
 ## Kaynaktan okunan rakamlar (sayfadan alıntı)
 
@@ -21,6 +25,7 @@ Video adresleri (herkese açık, `claude/ecstatic-thompson-hd3p6u` dalı):
 - 2026-11-24 (2. oturum): Claude in Chrome yine bağlı değildi, kullanıcının bilgisayarı da oturuma bağlı değildi. Kullanıcının isteğiyle Windsor `upload_video` ile denendi: "Çekirdek" videosu 2 kez, "Muz" videosu 1 kez (yaklaşık 3 dakika arayla). Üçü de "YouTube rate-limited the upload" hatası verdi. Windsor `get_data` son 29 günde kanalda video göstermedi, yani denemeler çift video oluşturmamış görünüyor (veri önbellekten okundu). Bir saat sonra otomatik yeniden deneme planlandı.
 - 2026-11-25 00:43 UTC: Planlı yeniden deneme. "Çekirdek" yüklemesini kullanıcı onaylamadı (çağrı reddedildi), yüklenmedi. "Muz" videosu kullanıcının isteğiyle 2 kez denendi, ikisi de hız sınırı hatası verdi. Bundan sonraki saatlik denemeler yalnızca "Muz" için yapılacak.
 - 2026-11-25: Kullanıcı iki videoyu da YouTube Studio'dan kendisi yükledi. Otomatik yeniden denemeler iptal edildi. Windsor `upload_video` bu kanal için hiç çalışmadı (toplam 10'dan fazla deneme, hepsi hız sınırı); yeni videolarda doğrudan Studio yolu kullanılmalı.
+- 2026-11-25: "Radyasyon neyle durur?" ve "Kullanılmış nükleer yakıt ne kadar yer kaplar?" Claude in Chrome ile YouTube Studio'dan yüklendi (README'deki yol: `fetch` + `DataTransfer` ile raw.githubusercontent.com adresinden gizli `input[type=file]`'a verildi). İkisi de ilk denemede yüklendi ve yayınlandı. "Yapay zeka kullanımı" sorusu bu kez tarayıcıdan "Evet" olarak işaretlenebildi.
 
 ## Windsor destek talebi
 
