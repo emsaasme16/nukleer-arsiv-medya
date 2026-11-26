@@ -7,36 +7,6 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 3. uranyumun-hepsi-bolunur-mu.mp4 (55,93 sn)
-
-**YouTube başlığı:** Uranyumun hepsi bölünür mü? #Shorts
-
-**YouTube açıklaması:**
-Mit mi, gerçek mi? "Uranyumun her atomu reaktörde bölünür." Mit. ABD Nükleer Düzenleme Kurulu'na göre doğal uranyumun %99,3'ü uranyum-238, yalnızca %0,7'si uranyum-235'tir. Uranyum-235 yavaş (termal) nötronla bölünür: ABD Enerji Bakanlığı el kitabına göre yakalanan nötronun kazandırdığı enerji, bölünme eşiğini 0,3 MeV aşar. Uranyum-238'de bu enerji eşiğin 1,5 MeV altında kalır; onu bölmek için hızlı, yüksek enerjili bir nötron gerekir. Bu yüzden santraller uranyum-235 oranı yaklaşık %4'e çıkarılmış (zenginleştirilmiş) uranyum kullanır. Seslendirme yapay ses ile yapılmıştır.
-
-Kaynaklar:
-- ABD Nükleer Düzenleme Kurulu (NRC), "Uranium" (sözlük): https://www.nrc.gov/reading-rm/basic-ref/glossary/uranium.html
-- ABD Nükleer Düzenleme Kurulu (NRC), "Fissile material" (sözlük): https://www.nrc.gov/reading-rm/basic-ref/glossary/fissile-material.html
-- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 1" (DOE-HDBK-1019/1-93): https://www.energy.gov/documents/doe-hdbk-1019-93vol1
-- ABD Enerji Bakanlığı (DOE), "The Harnessed Atom: Nuclear Energy & Electricity" (Student Edition): https://www.energy.gov/sites/prod/files/2014/06/f16/Student%20Edition_2.pdf
-
-Devamı kanalda: Bölüm 2.
-
-#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
-
-**Instagram metni:**
-Mit mi, gerçek mi? Uranyumun hepsi bölünür. Mit: doğal uranyumun %99,3'ü U-238, yavaş nötronla bölünmez; bölünen U-235 yalnızca %0,7. Santraller bu yüzden ≈ %4 U-235'e zenginleştirilmiş uranyum kullanır. Kaynaklar: ABD NRC sözlüğü (Uranium, Fissile material), ABD Enerji Bakanlığı (DOE-HDBK-1019, The Harnessed Atom). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
-#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
-
-**Kaynaktan okunan cümleler:**
-- NRC, Uranium: "The two principal natural isotopes are uranium-235 (which comprises 0.7 percent of natural uranium), which is fissile, and uranium-238 (99.3 percent of natural uranium), which is fissionable by fast neutrons and is fertile, meaning that it becomes fissile after absorbing one neutron."
-- NRC, Fissile material: "A nuclide that is capable of undergoing fission after capturing low-energy thermal (slow) neutrons."
-- DOE-HDBK-1019/1-93, Tablo 4: "238 92 U 7.0 MeV 5.5 MeV -1.5 MeV · 235 92 U 6.5 MeV 6.8 MeV +0.3 MeV" · "Uranium-235 fissions with thermal neutrons because the binding energy released by the absorption of a neutron is greater than the critical energy for fission" · "Some examples of nuclides requiring high energy neutrons to cause fission are thorium-232, uranium-238, and plutonium-240."
-- DOE, The Harnessed Atom: "Less than 1 percent of the atoms in natural uranium are uranium-235 atoms. Most of the rest of the uranium atoms are uranium-238. However, power plants need uranium that is about 4 percent uranium-235." · "The uranium enrichment process raises the concentration of uranium-235"
-- 1000 atomluk küp: 993 U-238, 7 U-235 (NRC oranlarıyla).
-
----
-
 ## Üretim notu
 
 - Ses: ElevenLabs `eleven_v4`, Cem (`mScWJwY9Ty24PwwvyNcA`), tek take. Flow'lar: NZHOcMGWVNOweRRCQKbI (radyasyon, 46,16 sn, 774 kredi), 0vaC2x7BATDHaeOocCvP (yakıt, 49,60 sn, 887 kredi).
