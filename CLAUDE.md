@@ -8,7 +8,7 @@
 | Ekranda | Ses metninde |
 |---|---|
 | ABD | A-Be-De |
-| NRC | (söyleme ya da) En-Ar-Si değil; Türkçe adını kullan: Nükleer Düzenleme Kurulu |
+| NRC | seste söylenmez, "Nükleer Düzenleme Kurulu" demek yeterli |
 | %0,7 | yüzde sıfır virgül yedi |
 | %99,3'ü | yüzde doksan dokuz virgül üçü |
 | U-235 | uranyum iki yüz otuz beş |
