@@ -7,7 +7,7 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 2. kayip-kutle-nereye-gider.mp4 (57,53 sn)
+## 2. kayip-kutle-nereye-gider.mp4 (57,30 sn)
 
 **YouTube başlığı:** Kayıp kütle nereye gider? #Shorts
 
@@ -77,5 +77,6 @@ Mit mi, gerçek mi? Uranyumun hepsi bölünür. Mit: doğal uranyumun %99,3'ü U
 - 2026-11-26 (günlük Shorts görevi): ses ElevenLabs `eleven_v4`, Can Seçkin (`rSuyucEH95GpZEfLV0AM`), perde kaydırma yok, tek take; görüntü `pipeline/stil_3d/dikey_kit.py` (gerçekçi dikey 3D).
   - Uranyum-kömür: flow wEs1F2D14ZuVBwAnOOhW, ses 49,63 sn, video 56,10 sn, 814 kredi, AAC sonrası -14,1 LUFS / tepe -2,3 dBFS. Kalan ElevenLabs karakteri (üç sesten sonra, hesap): 105.046.
   - Kayıp kütle: flow 27tzZyWH2dTntC9twpX0, ses 51,07 sn, video 57,53 sn, 805 kredi, AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Terazideki eğim temsilîdir; çekirdek C-12 olarak çizildi.
+  - Kayıp kütle okunuş düzeltmesi (2026-11-26): "E eşittir m c kare" → "e eşittir em ce kare" (metin `pipeline/stil_3d/metinler/kayip-kutle-nereye-gider.txt`); flow 0C9FLoYEQlT0rDQCoPpP, generation eKPRTi9lGPh2NOPGKi17, ses 50,80 sn, video 57,30 sn, 807 kredi, AAC sonrası -14,2 LUFS / tepe -2,4 dBFS.
   - Uranyumun hepsi bölünür mü: flow CSJTRuJYbU3Ctj3w53YX, ses 49,48 sn, video 55,93 sn, 825 kredi, AAC sonrası -14,1 LUFS / tepe -2,3 dBFS.
   - Bu üç video toplam 2.444 kredi; kalan ElevenLabs karakteri ≈ 105.046 (126.676 limit).

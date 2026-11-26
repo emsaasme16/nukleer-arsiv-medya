@@ -2,6 +2,7 @@
 """Gercekci 3D Short: 60 saniyede: Kayip kutle nereye gider? (kayip-kutle-nereye-gider.mp4), 1080x1920, 30 fps.
 
 Ses: /tmp/s2/mix.wav (../uzun_3d/sesler.py, TAIL=5.5). Zamanlar sesin sessizlik sinirlarindan.
+Seslendirme metni: metinler/kayip-kutle-nereye-gider.txt (okunus duzeltmesi 2026-11-26).
 Kaynaklar: DOE-HDBK-1019/1-93 (kutle kusuru tanimi; fisyon ornegi 236,052589 -> 235,85208 amu),
 DOE-HDBK-1122-99 Modul 1.04 (bag enerjisi = kutle kusurunun enerji karsiligi), DOE "DOE Explains...Fusion Energy
 Science" (E=mc2), NRC sozlugu "Binding energy".
@@ -10,12 +11,12 @@ Kullanim: WORK=/tmp/s2 python3 render_kayip_kutle_3d.py still 2 10 ... | render
 from dikey_kit import *
 
 NAME = "kayip-kutle-nereye-gider"
-TOTAL = 57.54
+TOTAL = 57.30
 NFRAMES = int(TOTAL * FPS)
 BOLUM = 1
 
-Z = dict(dusun=1.06, kefe=4.37, esit=9.09, kusur=14.03, nereye=16.58, kaybolmadi=18.61, enerji=19.62, bag=20.75,
-         karsilik=25.69, einstein=29.29, fisyon=34.38, u235=36.29, fark=44.17, ama=47.27, son=52.1)
+Z = dict(dusun=1.06, kefe=4.37, esit=9.19, kusur=14.13, nereye=16.69, kaybolmadi=18.66, enerji=19.65, bag=20.81,
+         karsilik=25.84, einstein=29.41, fisyon=34.43, u235=36.27, fark=44.19, ama=47.21, son=51.85)
 
 TOP = 0.76                       # masa ustu
 PIV = np.array([0.0, TOP + 0.47, 0.0])
