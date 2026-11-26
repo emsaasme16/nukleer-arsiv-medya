@@ -45,3 +45,21 @@ birleştirir, sesi `-c:a copy` ile ekler ve `-movflags +faststart` yazar. Çıkt
 `$WORK/<video-adi>.mp4` (ortam değişkenleri: `WORK`, `AUDIO`, `OUTMP4`, `WORKERS`).
 Kare sayıları orijinal videolarla aynıdır (1146, 1095, 1095, 1575, 1680). 4 çekirdekte bir video
 yaklaşık 2-4 dakika sürer. EGL açılmazsa `libegl1` / Mesa paketleri eksiktir.
+
+## Gerçekçi dikey 3D Shorts (2026-11-26'dan itibaren)
+
+Kullanıcı kararı: tesis, cihaz ve olaylar gerçekçi sinematik 3D ile; soyut küre yalnızca atom altı ölçekte. Videoda
+uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilgisi yalnızca platform açıklamasında.
+
+- `dikey_kit.py`: `../uzun_3d/gercekci.py` motorunu (PBR, gölge, SSAO, sis, alan derinliği, bloom) ve
+  `../uzun_3d/modeller/` modellerini 1080×1920'ye uyarlar (yüklenirken `gercekci.W, H = 1080, 1920`). Yazılar bu
+  klasördeki `common3d.py` (T / pill / blit) ile. Yardımcılar: `path` (Catmull-Rom kamera; anahtarlar çok farklı
+  uzaklıktaysa aşar, makro çekimlerde açık yörünge kullan), `shots` (çapraz geçiş), `lines` (üst başlıklar, y 380-620),
+  `cardl` (rakam kartı), `stamp` (MİT / GERÇEK damgası), `end_card` (kaynaklar + `DEVAMI KANALDA · BÖLÜM N`),
+  `m_rock` (kömür/taş parçası), `render` (24 dilim, 4 süreç, crf 19, `mix.wav` ile AAC 192k).
+- Ses: tek mp3 `$WORK/ses/sahne_01.mp3` → `TAIL=5.5 python3 ../uzun_3d/sesler.py $WORK` (doğal zincir, perde kaydırma
+  yok, -14 LUFS). Metin zamanları `ffmpeg -af silencedetect=n=-36dB:d=0.16` sınırlarından elle `Z` sözlüğüne yazılır.
+- Konu betikleri: `render_uranyum_komur_3d.py` (uranyum-komurun-milyonlarca-kati-enerji-verir-mi),
+  `render_kayip_kutle_3d.py` (kayip-kutle-nereye-gider), `render_uranyum_bolunur_3d.py` (uranyumun-hepsi-bolunur-mu).
+- Çalıştırma: `WORK=/tmp/s1 python3 render_uranyum_komur_3d.py still 1 9 20` (kare kontrolü), sonra `... render`
+  → `$WORK/<ad>.mp4`. 4 çekirdekte bir video ≈ 15-25 dk.
