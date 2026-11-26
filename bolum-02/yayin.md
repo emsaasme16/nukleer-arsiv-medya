@@ -2,7 +2,7 @@
 
 Bu dosya yükleme yapmaz; yükleme kullanıcının bilgisayarındaki görev tarafından yapılır.
 
-- **Video dosyası:** `bolum-02/bolum-02-fisyon.mp4` (1920×1080, 30 fps, 9:37)
+- **Video dosyası:** `bolum-02/bolum-02-fisyon.mp4` (1920×1080, 30 fps, 9:35)
 - **Ham video adresi:** https://raw.githubusercontent.com/emsaasme16/nukleer-arsiv-medya/claude/ecstatic-thompson-hd3p6u/bolum-02/bolum-02-fisyon.mp4
 - **Küçük resim:** `bolum-02/kucuk-resim-1.png` (birincil: "ÇEKİRDEK İKİYE BÖLÜNÜYOR"), `bolum-02/kucuk-resim-2.png` (alternatif: "1 NÖTRON, 200 MeV")
 - **Altyazı:** `bolum-02/altyazi-tr.srt` (Türkçe)
@@ -27,11 +27,11 @@ Seslendirme yapay ses ile yapılmıştır.
 Bölümler:
 00:00 Gece yarısı, reaktörün kalbi
 01:18 1932 ve 1938: yüksüz bir anahtar
-02:10 Neden nötron?
-03:09 Titreyen damla: sıvı damlası modeli ve kritik enerji
-05:07 Bölünmeden sonra: parçalar, nötronlar, 200 MeV
-06:51 Fare kapanları ve ping-pong topları
-08:20 Özet ve sıradaki bölüm
+02:09 Neden nötron?
+03:08 Titreyen damla: sıvı damlası modeli ve kritik enerji
+05:06 Bölünmeden sonra: parçalar, nötronlar, 200 MeV
+06:50 Fare kapanları ve ping-pong topları
+08:19 Özet ve sıradaki bölüm
 
 Kaynaklar:
 - ABD Enerji Bakanlığı (DOE), "NUCLEAR 101: How Does a Nuclear Reactor Work?": https://www.energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work
@@ -61,10 +61,11 @@ nükleer arşiv, fisyon, nükleer fisyon, çekirdek bölünmesi, nötron, uranyu
 
 ## Bitiş ekranı
 
-Son ~19 saniyede (yaklaşık 09:17'den sonra) ekranın sol yarısında "BÖLÜM 3: ZİNCİRLEME TEPKİME VE KRİTİKLİK · YAKINDA" ve kaynaklar kartı var; sağ yarı YouTube bitiş ekranı öğeleri (abone ol, sonraki video) için boş bırakıldı.
+Son ~19 saniyede (yaklaşık 09:16'dan sonra) ekranın sol yarısında "BÖLÜM 3: ZİNCİRLEME TEPKİME VE KRİTİKLİK · YAKINDA" ve kaynaklar kartı var; sağ yarı YouTube bitiş ekranı öğeleri (abone ol, sonraki video) için boş bırakıldı.
 
 ## Üretim notu
 
 - Seslendirme: ElevenLabs Eleven v4, ses "Can Seçkin" (voice_id rSuyucEH95GpZEfLV0AM), perde kaydırma yok; 7 sahne, her biri tek take. Flow: I56l2088dgH9gNv8GU2C.
+- Okunuş düzeltmesi (26 Kasım 2026): seslendirmede 'ABD' → 'Amerika' (sahne 1, 2, 4 yeniden seslendirildi). Güncel generation kimlikleri: S1 y4JBB0pdTndvNfrq3Z9n, S2 VQUxFjZ5aW9IafNrykB0, S3 WksCYGPgJiUJgbauHGyQ, S4 ZRd8HzkeiIjy1o0zqd2A, S5 ae7j05h3bdNc3CVSkATF, S6 czVKXDG3pjytuNATfBVr, S7 t3t2G6l0PycI94HNfFNn.
 - Sahne başlangıçları (sn): `bolum-02/cues.json`.
 - Kod: `pipeline/uzun_3d/bolum02.py`, gerçekçi 3D motor `pipeline/uzun_3d/gercekci.py`, modeller `pipeline/uzun_3d/modeller/` (NOTLAR.md).

@@ -161,7 +161,7 @@ def su_kabarcik(S, t, center, R, n=60, seed=2, size=0.004, speed=0.08):
 
 # ================================================================= SAHNE 1
 D1 = DURS[0]
-S1 = dict(kubbe=at(0, "Beton bir kubbenin"), kalp=at(0, "Burası reaktörün kalbi"), nrc=at(0, "ABD Nükleer Düzenleme"),
+S1 = dict(kubbe=at(0, "Beton bir kubbenin"), kalp=at(0, "Burası reaktörün kalbi"), nrc=at(0, "Amerika Nükleer Düzenleme"),
           demet=at(0, "Bir demete yaklaşalım"), tup=at(0, "Her tüp yaklaşık"), zirk=at(0, "Tüpler zirkonyum"),
           sicak=at(0, "Normal çalışmada"), isi=at(0, "Bu ısıyı"), fisyon=at(0, "Buna fisyon"),
           gecen=at(0, "Geçen bölüm"), soru=at(0, "Sorumuz şu"))
@@ -310,7 +310,7 @@ def scene1(t, u):
 
 # ================================================================= SAHNE 2
 D2 = DURS[1]
-S2 = dict(n32=at(1, "ABD Enerji Bakanlığı'nın el kitabına göre ancak"), y38=at(1, "Altı yıl sonra"),
+S2 = dict(n32=at(1, "Amerika Enerji Bakanlığı'nın el kitabına göre ancak"), y38=at(1, "Altı yıl sonra"),
           nrc=at(1, "Bugün Nükleer Düzenleme"), neden=at(1, "Peki neden nötron"))
 CARDS = [((0.08, 0.762, 0.04), 0.12), ((0.36, 0.762, 0.12), -0.1)]
 
@@ -431,7 +431,7 @@ D4 = DURS[3]
 S4 = dict(damla=at(3, "Damlayı bir arada"), nuk=at(3, "Çekirdekte bu işi"), yakal=at(3, "Nötron yakalandığında"),
           titre=at(3, "Bu enerjiyle damla"), halter=at(3, "Enerji yeterince büyükse"), kritik=at(3, "Kritik an budur"),
           itme=at(3, "İtme baskın gelince"), peki=at(3, "Peki yeterince büyük"), u238=at(3, "Uranyum iki yüz otuz sekizde"),
-          tekcift=at(3, "El kitabı farkın"), dogal=at(3, "ABD Nükleer Düzenleme Kurulu'na göre doğal"))
+          tekcift=at(3, "El kitabı farkın"), dogal=at(3, "Amerika Nükleer Düzenleme Kurulu'na göre doğal"))
 SPLIT = None
 
 
