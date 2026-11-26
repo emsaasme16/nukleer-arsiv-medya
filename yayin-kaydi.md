@@ -68,3 +68,9 @@ Beş videonun görüntüsü `pipeline/stil_3d/` ile 3D olarak yeniden üretildi;
 - YouTube: https://youtu.be/CQmwKSi_EmA · "Atomun İçinde Ne Saklı? Çekirdek Enerjiyi Nasıl Saklar | Nükleer Arşiv Bölüm 1" · Herkese açık, Eğitim, çocuklara özel değil, ücretli tanıtım yok, yapay zekâ kullanımı: Evet, 27 etiket, küçük resim kucuk-resim-1.png. Claude in Chrome ile YouTube Studio'dan yüklendi. Açıklama bolum-01/yayin.md + keşfet etiketleri.
 - Altyazı (bolum-01/altyazi-tr.srt) henüz yüklenmedi.
 - TikTok notu: 5 video etiketli olarak yeniden yüklendi (Çekirdek 7712157965570149633, Muz 7712158573207358741, Radyasyon 7712159199039393044, Atom 7712159834023431444, Yakıt 7712160514423475476). Yakıt yanlışlıkla ikinci kez yüklendi (7712161445026516230); bu kopya ve 5 eski etiketsiz video henüz silinmedi.
+
+## Bölüm 2 uzun video (2026-11-26)
+
+- YouTube: https://youtu.be/5ZgtelTouVQ · "Fisyon: Bir Nötron Çekirdeği Nasıl Böler? | Nükleer Arşiv Bölüm 2" · Herkese açık, Eğitim, çocuklara özel değil, ücretli tanıtım yok, yapay zekâ kullanımı: Evet, 28 etiket. 2026-11-26 17:10, zamanlanmış görev, Claude in Chrome ile YouTube Studio'dan yüklendi (okunuş düzeltmeli sürüm, okunus-tamam.txt'de listeli). Açıklama bolum-02/yayin.md + keşfet etiketleri.
+- Küçük resim: kucuk-resim-1.png YÜKLENEMEDİ. YouTube özel küçük resim için kanalın telefon numarasıyla doğrulanmasını istiyor; kullanıcı doğrulayıp Studio'dan elle eklemeli (şu an otomatik kare).
+- Altyazı (bolum-02/altyazi-tr.srt) yüklenmedi.
