@@ -7,37 +7,6 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 2. kayip-kutle-nereye-gider.mp4 (57,30 sn)
-
-**YouTube başlığı:** Kayıp kütle nereye gider? #Shorts
-
-**YouTube açıklaması:**
-60 saniyede: Bir çekirdek, onu oluşturan protonların ve nötronların toplamından biraz daha hafiftir; bu farka kütle kusuru denir. Kayıp kütle kaybolmaz, enerjiye dönüşür: bağ enerjisi, çekirdeği parçalarına ayırmak için gereken en küçük enerjidir ve kütle kusurunun enerji karşılığıdır (E = mc²). Aynı hesap fisyonda da işler: ABD Enerji Bakanlığı el kitabındaki örnekte uranyum-235 ve nötronun kütlesi 236,052589 u, ürünlerinki 235,85208 u; fark kütlenin binde birinden az (≈ %0,085). Fisyonun verdiği büyük enerji bu küçük farktan gelir. Seslendirme yapay ses ile yapılmıştır.
-
-Kaynaklar:
-- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 1" (DOE-HDBK-1019/1-93): https://www.energy.gov/documents/doe-hdbk-1019-93vol1
-- ABD Enerji Bakanlığı (DOE), "DOE-HDBK-1122-99, Module 1.04 Nuclear Physics, Study Guide": https://www.energy.gov/documents/doe-hdbk-1122-99studyguidemodule104pdf
-- ABD Enerji Bakanlığı (DOE), "DOE Explains...Fusion Energy Science": https://www.energy.gov/science/doe-explainsfusion-energy-science
-- ABD Nükleer Düzenleme Kurulu (NRC), "Binding energy" (sözlük): https://www.nrc.gov/reading-rm/basic-ref/glossary/binding-energy.html
-
-Devamı kanalda: Bölüm 1.
-
-#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
-
-**Instagram metni:**
-60 saniyede: Kayıp kütle nereye gider? Çekirdek, parçalarının toplamından hafiftir; eksik kütle bağ enerjisine dönüşür (E = mc²). Fisyonda fark kütlenin binde birinden az, ama enerjinin kaynağı o. Kaynaklar: ABD Enerji Bakanlığı (DOE-HDBK-1019, DOE-HDBK-1122, DOE Explains), ABD NRC sözlüğü. Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
-#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
-
-**Kaynaktan okunan cümleler:**
-- DOE-HDBK-1019/1-93: "Careful measurements have shown that the mass of a particular atom is always slightly less than the sum of the masses of the individual neutrons, protons, and electrons of which the atom consists. The difference between the mass of the atom and the sum of the masses of its parts is called the mass defect (∆m)."
-- DOE-HDBK-1019/1-93: "Mass of Reactants 236.052589 amu / Mass of Products 235.85208 amu / 0.200509 amu" · "Fission of heavy nuclides converts a small amount of mass into an enormous amount of energy."
-- DOE-HDBK-1122-99: "If a nucleus could be disassembled to its constituent parts, i.e., protons and neutrons, it would be found that the total mass of the atom is less than the sum of the masses of the individual protons and neutrons." · "Binding energy is the energy equivalent of mass defect."
-- DOE Explains...Fusion Energy Science: "the mass deficit is converted to energy through Einstein's equation (E=mc2)."
-- NRC, Binding energy: "The minimum energy required to separate the nucleus of an atom into its component neutrons and protons."
-- Hesap: 0,200509 ÷ 236,052589 ≈ 0,00085 (binde birden az). Terazideki eğim miktarı temsilîdir; çekirdek C-12 olarak çizildi.
-
----
-
 ## 3. uranyumun-hepsi-bolunur-mu.mp4 (55,93 sn)
 
 **YouTube başlığı:** Uranyumun hepsi bölünür mü? #Shorts
