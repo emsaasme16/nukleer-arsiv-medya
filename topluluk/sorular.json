@@ -1,0 +1,203 @@
+[
+  {
+    "id": "muz-radyoaktif",
+    "video_basligi": "Mit mi, gerçek mi? Muz radyoaktif midir?",
+    "video_url": "https://youtube.com/shorts/wl2d-NlqwMw",
+    "video_dosyasi": "muz-radyoaktif-mi.mp4",
+    "soru": "Mit mi, gerçek mi? Muz radyoaktiftir.",
+    "secenekler": [
+      "Mit",
+      "Gerçek, ama çok az"
+    ],
+    "dogru": 1,
+    "aciklama": "Gerçek: muz doğal olarak radyoaktif potasyum-40 içerir. Ama doz çok küçük: bir göğüs röntgeni yaklaşık 1.000 muza denk gelir.",
+    "kaynak": "ABD EPA, ABD NRC"
+  },
+  {
+    "id": "uranyum-yuzde",
+    "video_basligi": "Uranyumun hepsi bölünür mü?",
+    "video_url": "https://youtube.com/shorts/wpckt7GArmk",
+    "video_dosyasi": "uranyumun-hepsi-bolunur-mu.mp4",
+    "soru": "Doğal uranyumun ne kadarı yavaş nötronla bölünebilen U-235'tir?",
+    "secenekler": [
+      "%50",
+      "%4",
+      "%0,7",
+      "%99,3"
+    ],
+    "dogru": 2,
+    "aciklama": "Doğal uranyumun yalnızca %0,7'si U-235, %99,3'ü U-238'dir. Santraller bu yüzden U-235 oranı yaklaşık %4'e çıkarılmış yakıt kullanır.",
+    "kaynak": "ABD NRC, ABD DOE"
+  },
+  {
+    "id": "gama-kalkan",
+    "video_basligi": "Radyasyon neyle durur? Kâğıt, metal, kurşun",
+    "video_url": "https://youtube.com/shorts/2G0pUM72VKI",
+    "video_dosyasi": "radyasyon-neyle-durur.mp4",
+    "soru": "Gama ışınlarını durdurmak için hangisi gerekir?",
+    "secenekler": [
+      "Bir kâğıt yaprağı",
+      "İnce bir alüminyum levha",
+      "Santimetrelerce kurşun",
+      "Bir tahta blok"
+    ],
+    "dogru": 2,
+    "aciklama": "Alfa kâğıtla, beta ince metal ya da tahtayla durur. Kütlesiz gama ışınları için santimetrelerce kurşun ya da kalın beton gerekir.",
+    "kaynak": "ABD EPA, ABD NRC"
+  },
+  {
+    "id": "pelet-komur",
+    "video_basligi": "Uranyum kömürün milyonlarca katı enerji mi verir?",
+    "video_url": "https://youtube.com/shorts/Q-GfOe0-IkA",
+    "video_dosyasi": "uranyum-komurun-milyonlarca-kati-enerji-verir-mi.mp4",
+    "soru": "14 gramdan hafif tek bir uranyum peleti kaç kömür kadar enerji verebilir?",
+    "secenekler": [
+      "1 kg kömür",
+      "1 metrik ton kömür",
+      "100 kg kömür",
+      "10 kg kömür"
+    ],
+    "dogru": 1,
+    "aciklama": "ABD Enerji Bakanlığı'na göre tek bir yakıt peleti yaklaşık 1 metrik ton kömür kadar enerji açığa çıkarabilir: aynı ağırlıkta 70.000 kattan fazla.",
+    "kaynak": "ABD DOE"
+  },
+  {
+    "id": "kullanilmis-yakit",
+    "video_basligi": "Kullanılmış nükleer yakıt ne kadar yer kaplar?",
+    "video_url": "https://youtube.com/shorts/vWVQp42kLpo",
+    "video_dosyasi": "kullanilmis-yakit-ne-kadar-yer-kaplar.mp4",
+    "soru": "ABD'nin 1950'lerden beri ürettiği tüm kullanılmış nükleer yakıt bir araya gelse ne kadar yer kaplar?",
+    "secenekler": [
+      "Küçük bir şehir",
+      "Bir göl dolusu",
+      "Tek bir futbol sahası",
+      "Yüz stadyum"
+    ],
+    "dogru": 2,
+    "aciklama": "Yaklaşık 90.000 metrik ton kullanılmış yakıt, tek bir futbol sahasına 9 metreden alçak bir yükseklikte sığar.",
+    "kaynak": "ABD DOE"
+  },
+  {
+    "id": "atom-kutle",
+    "video_basligi": "Atomun kütlesi nerede? Çekirdek bezelye olsaydı…",
+    "video_url": "https://youtube.com/shorts/NZyDeW9ABQQ",
+    "video_dosyasi": "atomun-kutlesi-nerede.mp4",
+    "soru": "Atomun kütlesinin %99'undan fazlası nerededir?",
+    "secenekler": [
+      "Çekirdekte",
+      "Elektronlarda",
+      "Atomun boş kısmında",
+      "Her yere eşit dağılır"
+    ],
+    "dogru": 0,
+    "aciklama": "Kütlenin %99'undan fazlası küçücük çekirdektedir: bir proton, bir elektrondan yaklaşık 1.836 kat ağırdır.",
+    "kaynak": "NIST CODATA 2022, UCAR"
+  },
+  {
+    "id": "cekirdek-kuvvet",
+    "video_basligi": "Çekirdek neden dağılmıyor?",
+    "video_url": "https://youtube.com/shorts/exmQLwV3A4g",
+    "video_dosyasi": "cekirdek-neden-dagilmiyor.mp4",
+    "soru": "Protonlar birbirini iterken atom çekirdeğini bir arada tutan nedir?",
+    "secenekler": [
+      "Kütle çekimi",
+      "Elektronlar",
+      "Manyetizma",
+      "Güçlü nükleer kuvvet"
+    ],
+    "dogru": 3,
+    "aciklama": "Güçlü nükleer kuvvet elektromanyetizmadan yaklaşık 100 kat güçlüdür, ama menzili çok kısadır: yaklaşık bir çekirdek boyu.",
+    "kaynak": "ABD DOE"
+  },
+  {
+    "id": "kayip-kutle",
+    "video_basligi": "Kayıp kütle nereye gider?",
+    "video_url": "https://youtube.com/shorts/O5a9Myaf4UA",
+    "video_dosyasi": "kayip-kutle-nereye-gider.mp4",
+    "soru": "Mit mi, gerçek mi? Bir çekirdek, onu oluşturan proton ve nötronların toplamından daha hafiftir.",
+    "secenekler": [
+      "Gerçek",
+      "Mit"
+    ],
+    "dogru": 0,
+    "aciklama": "Gerçek: bu farka kütle kusuru denir. Kayıp kütle kaybolmaz, çekirdeği bir arada tutan bağ enerjisine dönüşür (E = mc²).",
+    "kaynak": "ABD DOE, ABD NRC"
+  },
+  {
+    "id": "baglanma-egrisi",
+    "video_basligi": "Atomun İçinde Ne Saklı? | Nükleer Arşiv Bölüm 1",
+    "video_url": "https://youtu.be/CQmwKSi_EmA",
+    "video_dosyasi": "bolum-01/bolum-01-atomun-icinde-ne-sakli.mp4",
+    "soru": "Çekirdekte parçacık başına bağlanma enerjisi hangi element civarında en yüksektir?",
+    "secenekler": [
+      "Hidrojen",
+      "Demir",
+      "Uranyum",
+      "Helyum"
+    ],
+    "dogru": 1,
+    "aciklama": "Eğri demir bölgesinde (kütle numarası 56 civarı) yaklaşık 8,8 MeV ile zirve yapar. Uranyum bölününce parçalar daha sıkı bağlanır, aradaki fark enerji olur.",
+    "kaynak": "ABD DOE (DOE-HDBK-1019)"
+  },
+  {
+    "id": "fisyon-enerji",
+    "video_basligi": "Fisyon: Bir Nötron Çekirdeği Nasıl Böler? | Nükleer Arşiv Bölüm 2",
+    "video_url": "https://youtu.be/5ZgtelTouVQ",
+    "video_dosyasi": "bolum-02/bolum-02-fisyon.mp4",
+    "soru": "Bir U-235 çekirdeğinin bölünmesi ortalama ne kadar enerji açığa çıkarır?",
+    "secenekler": [
+      "2 MeV",
+      "13 MeV",
+      "200 MeV",
+      "2.000 MeV"
+    ],
+    "dogru": 2,
+    "aciklama": "Bir U-235 fisyonu ortalama yaklaşık 200 MeV verir; bunun yaklaşık 167 MeV'u parçaların hareket enerjisidir ve yakıtı ısıtır.",
+    "kaynak": "ABD DOE (DOE-HDBK-1019)"
+  },
+  {
+    "id": "ay-stadyum",
+    "video_basligi": "Ay bir stadyuma sığar mı?",
+    "video_url": "",
+    "video_dosyasi": "ay-bir-stadyuma-sigar-mi.mp4",
+    "soru": "Mit mi, gerçek mi? Ay, atom çekirdeği yoğunluğuna sıkıştırılsa bir stadyuma sığardı.",
+    "secenekler": [
+      "Mit",
+      "Gerçek"
+    ],
+    "dogru": 1,
+    "aciklama": "Düşünce deneyi olarak gerçek: bütün çekirdekler yaklaşık aynı yoğunluktadır. Ay bu yoğunluğa sıkıştırılsa Yankee Stadium'a sığardı.",
+    "kaynak": "ABD DOE"
+  },
+  {
+    "id": "notron-neden",
+    "video_basligi": "Çekirdeği neden nötron böler?",
+    "video_url": "",
+    "video_dosyasi": "cekirdegi-neden-notron-boler.mp4",
+    "soru": "Çekirdeğe ulaşmada nötronu protondan üstün kılan nedir?",
+    "secenekler": [
+      "Yükü yoktur, protonlarca itilmez",
+      "Protondan çok daha hafiftir",
+      "Daha büyük artı yük taşır"
+    ],
+    "dogru": 0,
+    "aciklama": "Artı yüklü proton, çekirdeğin protonlarınca itilir. Yüksüz nötron bu itmeye takılmaz; çekirdeğe ulaşıp yakalanabilir ve U-235'te fisyonu başlatabilir.",
+    "kaynak": "ABD DOE, ABD NRC"
+  },
+  {
+    "id": "fisyon-sure",
+    "video_basligi": "Bir fisyon ne kadar sürer?",
+    "video_url": "",
+    "video_dosyasi": "bir-fisyon-ne-kadar-surer.mp4",
+    "soru": "Nötron yakalandıktan sonra bölünebilir bir çekirdekte fisyon yaklaşık ne kadar sürer?",
+    "secenekler": [
+      "1 saniye",
+      "Saniyenin binde biri",
+      "Saniyenin milyonda biri",
+      "Saniyenin on trilyonda biri"
+    ],
+    "dogru": 3,
+    "aciklama": "ABD Enerji Bakanlığı'na göre nötron yakalandıktan sonra fisyon ve yeni hızlı nötronların çıkışı yaklaşık saniyenin on trilyonda birinde olur.",
+    "kaynak": "ABD DOE (DOE-HDBK-1019)"
+  }
+]
