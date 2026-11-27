@@ -7,32 +7,6 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 1. ay-bir-stadyuma-sigar-mi.mp4 (52,57 sn)
-
-**YouTube başlığı:** Ay bir stadyuma sığar mı? #Shorts
-
-**YouTube açıklaması:**
-Mit mi, gerçek mi? "Ay, sıkıştırılsa bir stadyuma sığar." Bir düşünce deneyi olarak gerçek. ABD Enerji Bakanlığı'na göre atomun çekirdeği, atom hacminin %0,01'inden çok daha azını kaplar ama atomun kütlesinin %99,9'undan fazlasını taşır. Bütün çekirdekler yaklaşık aynı yoğunluktadır: Ay bu yoğunluğa kadar sıkıştırılsaydı, New York'taki Yankee Stadium'un içine sığardı. Kütlesi aynı kalırdı; yalnızca çekirdekler arasındaki boşluk ortadan kalkardı. Seslendirme yapay ses ile yapılmıştır.
-
-Kaynaklar:
-- ABD Enerji Bakanlığı (DOE), Office of Science, "DOE Explains...Nuclei": https://www.energy.gov/science/doe-explainsnuclei
-
-Devamı kanalda: Bölüm 1.
-
-#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
-
-**Instagram metni:**
-Mit mi, gerçek mi? Ay sıkıştırılsa bir stadyuma sığar. Düşünce deneyi olarak gerçek: bütün çekirdekler yaklaşık aynı yoğunlukta; Ay bu yoğunluğa sıkıştırılsa Yankee Stadium'a sığardı. Kaynak: ABD Enerji Bakanlığı (DOE Explains...Nuclei). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
-#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
-
-**Kaynaktan okunan cümleler:**
-- DOE Explains...Nuclei: "The nucleus makes up much less than .01% of the volume of the atom, but typically contains more than 99.9% of the mass of the atom."
-- DOE Explains...Nuclei: "The nucleus accounts for more than 99.9994% of the total atomic mass, but occupies less than one ten-trillionth of the atomic volume."
-- DOE Explains...Nuclei: "All nuclei have approximately the same density. If the Moon was smashed to the same density, it would fit inside Yankee Stadium."
-- Ekrandaki çekirdekler (C-12, Fe-56, U-235) gerçek nükleon sayılarıyla çizildi; stadyum genel bir beyzbol stadyumudur (Yankee Stadium'un birebir modeli değildir).
-
----
-
 ## 2. cekirdegi-neden-notron-boler.mp4 (51,20 sn)
 
 **YouTube başlığı:** Çekirdeği neden nötron böler? #Shorts
