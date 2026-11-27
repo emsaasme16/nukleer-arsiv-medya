@@ -2,7 +2,7 @@
 
 Tek seferlik örnek (2026-11-27). Hiçbir platforma yüklenmedi; `stok.md` ve `yayin-kaydi.md` değişmedi.
 
-- Video: `ornek/yeni-kurallar-ornegi.mp4` — 1080x1920, 30 fps, 52,97 sn (seslendirme 46,48 sn + 1,0 sn baş + 5,5 sn son kart), H.264 yuv420p, AAC 192k, faststart
+- Video: `sogutma-kulesi-duman-mi.mp4` (stoğa taşındı) — 1080x1920, 30 fps, 52,97 sn (seslendirme 46,48 sn + 1,0 sn baş + 5,5 sn son kart), H.264 yuv420p, AAC 192k, faststart
 - Kontak sayfası: `ornek/yeni-kurallar-kareler.jpg`
 - Kod: `pipeline/stil_3d/render_sogutma_kulesi_3d.py` (sahneler), `pipeline/stil_3d/altyazi_kelime.py` (yeniden kullanılabilir kelime kelime altyazı)
 - Ses metni: `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`; kelime zamanları: `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.words.json`

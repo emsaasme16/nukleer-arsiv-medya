@@ -34,6 +34,36 @@ Devamı kanalda: Bölüm 2.
 
 ---
 
+## 4. sogutma-kulesi-duman-mi.mp4 (52,97 sn)
+
+**YouTube başlığı:** Soğutma kulesinden çıkan duman mı? #Shorts
+
+**YouTube açıklaması:**
+60 saniyede: Nükleer santralin soğutma kulesinin tepesindeki beyaz bulut duman değil. ABD Enerji Bakanlığı'nın (DOE) "The Harnessed Atom" kitabına göre bu, göl suyunun buharıdır; su reaktörün yanına hiç gitmemiştir ve radyoaktif değildir. Santralde üç ayrı su döngüsü vardır; sular karışmaz, yalnızca ısı aktarılır. Kulede ılık su aşağı süzülürken bir kısmı buharlaşır, nemli sıcak hava yükselir ve tepeden saatte yaklaşık 16 km hızla atmosfere çıkar. ABD Nükleer Düzenleme Kurulu'na (NRC) göre soğuk hava bu nemi tutamadığı için görünür bir bulut oluşur; bulut havaya karışınca kaybolur. 200 metre yüksekliğindeki kule genellikle santralin en yüksek yapısıdır. Seslendirme yapay ses ile yapılmıştır.
+
+Kaynaklar:
+- ABD Enerji Bakanlığı (DOE), "The Harnessed Atom" (DOE/NE-0143), Ders 6: https://www.energy.gov/sites/prod/files/2014/06/f16/Student%20Edition_2.pdf
+- ABD Nükleer Düzenleme Kurulu (NRC), "Reactor Concepts Manual", Nuclear Power for Electrical Generation: https://www.nrc.gov/reading-rm/basic-ref/students/for-educators/01.pdf
+
+Devamı kanalda: Bölüm 2.
+
+#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
+
+**Instagram metni:**
+60 saniyede: Nükleer santralin soğutma kulesinden çıkan beyaz bulut duman değil, göl suyunun buharı. Bu su reaktörün yanına hiç gitmez, radyoaktif değildir. Buhar tepeden saatte yaklaşık 16 km hızla çıkar; soğuk havada görünür bulut olur. Kaynak: ABD Enerji Bakanlığı (The Harnessed Atom) ve ABD NRC (Reactor Concepts Manual). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
+Takip et · Kaydet 🔖
+#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
+
+**Kaynaktan okunan cümleler:**
+- DOE/NE-0143, Ders 6: "What looks like smoke coming from the top of the cooling tower is really vapor from lake water. This water has never been near the reactor. It is not radioactive."
+- DOE/NE-0143, kondenser: "The water does not mix. Only the heat is transferred."
+- DOE/NE-0143: "warm lake water from the third loop is sprayed in the air and trickles down … Some of the water evaporates. The warm, moist air rises inside the tower."
+- DOE/NE-0143: "Heat and moisture leave the top of the tower at about 16 km per hour (10 miles per hour) into the atmosphere."
+- DOE/NE-0143: "At 200 meters (656 feet) high, a cooling tower is usually the power plant's tallest structure."
+- NRC Reactor Concepts Manual: "The "steam" vented from the top of a cooling tower is really lukewarm water vapor. IT IS NOT RADIOACTIVE. As the warm, wet air from inside the cooling tower contacts the cooler, dryer air above the cooling tower, the water vapor which cannot be held by the cooler air forms a visible cloud. … The released cloud of vapor will only be visible until it is dispersed and absorbed by the air."
+
+---
+
 ## Üretim notu
 
 - Ses: ElevenLabs `eleven_v4`, Cem (`mScWJwY9Ty24PwwvyNcA`), tek take. Flow'lar: NZHOcMGWVNOweRRCQKbI (radyasyon, 46,16 sn, 774 kredi), 0vaC2x7BATDHaeOocCvP (yakıt, 49,60 sn, 887 kredi).
@@ -51,3 +81,4 @@ Devamı kanalda: Bölüm 2.
   - Çekirdeği neden nötron böler: flow fPrYxnkrtBhpbp3gkcGQ (generation lQeQemeObmTLkQzWAgub), ses 44,75 sn, video 51,20 sn, 729 kredi (+246 dinleme kontrolü, flow ZQv3vc2Fo0ICYxxoF7ZD), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/cekirdegi-neden-notron-boler.txt`, kod `pipeline/stil_3d/render_notron_neden_3d.py`.
   - Bir fisyon ne kadar sürer: flow HA1iagpMGeSAHdRcBGTO (generation UAr251DjYM3gnVEX8lBs), ses 43,89 sn, video 50,33 sn, 743 kredi (+241 dinleme kontrolü, flow dYhPvvruGg6QiR48Yd4H), AAC sonrası -14,1 LUFS / tepe -2,5 dBFS. Metin `pipeline/stil_3d/metinler/bir-fisyon-ne-kadar-surer.txt`, kod `pipeline/stil_3d/render_fisyon_sure_3d.py`.
   - Bu üç video: ses 2.252 + dinleme kontrolü 740 = 2.992 kredi; kalan ElevenLabs karakteri ≈ 96.737 (126.676 limit; üretimden önce hesapta kalan 99.729).
+  - Soğutma kulesinden çıkan duman mı (yeni kurallar örneği): flow SbKfV1Ow0j2NpRpNlHoY (generation Qzy1qQ2ySSoxeQ6teK6d), ses 46,48 sn, video 52,97 sn, 785 kredi (+256 dinleme kontrolü, flow xI9vsrrsTJYI24bSwgng), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`, kod `pipeline/stil_3d/render_sogutma_kulesi_3d.py`. Yeni kurallar örneği: açılış 10/10, 23 kesme, parlama en kötü %0,43 / sıçrama %19,2.
