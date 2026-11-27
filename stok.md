@@ -7,37 +7,6 @@ Etiketler (hepsi için): `#NükleerArşiv #nükleer #atom #fizik #bilim #shorts`
 
 ---
 
-## 2. cekirdegi-neden-notron-boler.mp4 (51,20 sn)
-
-**YouTube başlığı:** Çekirdeği neden nötron böler? #Shorts
-
-**YouTube açıklaması:**
-60 saniyede: Çekirdekte protonlar ve nötronlar vardır. Protonlar artı yüklüdür, nötronun ise elektrik yükü yoktur. Aynı yükler birbirini iter; ABD Enerji Bakanlığı'nın el kitabı elektrostatik kuvveti protonlar arasında güçlü ve görece uzun menzilli bir itme olarak tanımlar. Bu yüzden dışarıdan gelen artı yüklü bir proton, çekirdeğe yaklaştıkça itilir. Nötron bu itmeye takılmaz: el kitabına göre yükü olmadığı için nötronu durdurmak zordur ve içeri işleme gücü yüksektir. Çekirdeğe ulaşan nötron yakalanabilir; uranyum-235 gibi fisil bir çekirdekte bu, bölünmeyi (fisyonu) başlatabilir. Seslendirme yapay ses ile yapılmıştır.
-
-Kaynaklar:
-- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 1" (DOE-HDBK-1019/1-93): https://www.energy.gov/documents/doe-hdbk-1019-93vol1
-- ABD Nükleer Düzenleme Kurulu (NRC), sözlük, "Neutron": https://www.nrc.gov/reading-rm/basic-ref/glossary/neutron.html
-- ABD Enerji Bakanlığı (DOE), "DOE Explains...Nuclear Fission": https://www.energy.gov/science/doe-explainsnuclear-fission
-
-Devamı kanalda: Bölüm 2.
-
-#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
-
-**Instagram metni:**
-60 saniyede: Çekirdeği neden proton değil de nötron böler? Proton artı yüklüdür ve çekirdeğin protonlarınca itilir; yüksüz nötron bu itmeye takılmaz, çekirdeğe ulaşıp yakalanabilir. Kaynaklar: ABD Enerji Bakanlığı (DOE-HDBK-1019; DOE Explains...Nuclear Fission), ABD NRC sözlüğü (Neutron). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
-#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
-
-**Kaynaktan okunan cümleler:**
-- DOE-HDBK-1019/1-93: "Protons are particles that have a positive charge, have about the same mass as a hydrogen atom, and exist in the nucleus of an atom." · "Neutrons are particles that have no electrical charge, have about the same mass as a hydrogen atom, and exist in the nucleus of an atom."
-- DOE-HDBK-1019/1-93 (Forces Acting in the Nucleus tablosu): "Electrostatic · Strong repulsive force between like charged particles (protons) · Relatively long"
-- DOE-HDBK-1019/1-93: "Because of its lack of charge, the neutron is difficult to stop and has a high penetrating power."
-- DOE-HDBK-1019/1-93: "A fissile material is composed of nuclides for which fission is possible with neutrons of any energy level. ... Some examples of fissile nuclides are uranium-235, uranium-233, and plutonium-239."
-- NRC, Neutron: "An uncharged elementary particle, with a mass slightly greater than that of the proton, found in the nucleus of every atom heavier than hydrogen."
-- DOE Explains...Nuclear Fission: "Fission was discovered in 1938 by Otto Hahn, Lise Meitner, and Fritz Strassmann by bombarding elements with neutrons."
-- Ekrandaki protonun sapan yolu itici bir merkez etrafında sayısal olarak hesaplandı; çekirdek U-235 (92 proton, 143 nötron) olarak çizildi.
-
----
-
 ## 3. bir-fisyon-ne-kadar-surer.mp4 (50,33 sn)
 
 **YouTube başlığı:** Bir fisyon ne kadar sürer? #Shorts
