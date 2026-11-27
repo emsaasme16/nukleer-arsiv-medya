@@ -33,6 +33,37 @@ Mit mi, gerçek mi? Ay sıkıştırılsa bir stadyuma sığar. Düşünce deneyi
 
 ---
 
+## 2. cekirdegi-neden-notron-boler.mp4 (51,20 sn)
+
+**YouTube başlığı:** Çekirdeği neden nötron böler? #Shorts
+
+**YouTube açıklaması:**
+60 saniyede: Çekirdekte protonlar ve nötronlar vardır. Protonlar artı yüklüdür, nötronun ise elektrik yükü yoktur. Aynı yükler birbirini iter; ABD Enerji Bakanlığı'nın el kitabı elektrostatik kuvveti protonlar arasında güçlü ve görece uzun menzilli bir itme olarak tanımlar. Bu yüzden dışarıdan gelen artı yüklü bir proton, çekirdeğe yaklaştıkça itilir. Nötron bu itmeye takılmaz: el kitabına göre yükü olmadığı için nötronu durdurmak zordur ve içeri işleme gücü yüksektir. Çekirdeğe ulaşan nötron yakalanabilir; uranyum-235 gibi fisil bir çekirdekte bu, bölünmeyi (fisyonu) başlatabilir. Seslendirme yapay ses ile yapılmıştır.
+
+Kaynaklar:
+- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 1" (DOE-HDBK-1019/1-93): https://www.energy.gov/documents/doe-hdbk-1019-93vol1
+- ABD Nükleer Düzenleme Kurulu (NRC), sözlük, "Neutron": https://www.nrc.gov/reading-rm/basic-ref/glossary/neutron.html
+- ABD Enerji Bakanlığı (DOE), "DOE Explains...Nuclear Fission": https://www.energy.gov/science/doe-explainsnuclear-fission
+
+Devamı kanalda: Bölüm 2.
+
+#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
+
+**Instagram metni:**
+60 saniyede: Çekirdeği neden proton değil de nötron böler? Proton artı yüklüdür ve çekirdeğin protonlarınca itilir; yüksüz nötron bu itmeye takılmaz, çekirdeğe ulaşıp yakalanabilir. Kaynaklar: ABD Enerji Bakanlığı (DOE-HDBK-1019; DOE Explains...Nuclear Fission), ABD NRC sözlüğü (Neutron). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
+#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
+
+**Kaynaktan okunan cümleler:**
+- DOE-HDBK-1019/1-93: "Protons are particles that have a positive charge, have about the same mass as a hydrogen atom, and exist in the nucleus of an atom." · "Neutrons are particles that have no electrical charge, have about the same mass as a hydrogen atom, and exist in the nucleus of an atom."
+- DOE-HDBK-1019/1-93 (Forces Acting in the Nucleus tablosu): "Electrostatic · Strong repulsive force between like charged particles (protons) · Relatively long"
+- DOE-HDBK-1019/1-93: "Because of its lack of charge, the neutron is difficult to stop and has a high penetrating power."
+- DOE-HDBK-1019/1-93: "A fissile material is composed of nuclides for which fission is possible with neutrons of any energy level. ... Some examples of fissile nuclides are uranium-235, uranium-233, and plutonium-239."
+- NRC, Neutron: "An uncharged elementary particle, with a mass slightly greater than that of the proton, found in the nucleus of every atom heavier than hydrogen."
+- DOE Explains...Nuclear Fission: "Fission was discovered in 1938 by Otto Hahn, Lise Meitner, and Fritz Strassmann by bombarding elements with neutrons."
+- Ekrandaki protonun sapan yolu itici bir merkez etrafında sayısal olarak hesaplandı; çekirdek U-235 (92 proton, 143 nötron) olarak çizildi.
+
+---
+
 ## Üretim notu
 
 - Ses: ElevenLabs `eleven_v4`, Cem (`mScWJwY9Ty24PwwvyNcA`), tek take. Flow'lar: NZHOcMGWVNOweRRCQKbI (radyasyon, 46,16 sn, 774 kredi), 0vaC2x7BATDHaeOocCvP (yakıt, 49,60 sn, 887 kredi).
@@ -47,3 +78,4 @@ Mit mi, gerçek mi? Ay sıkıştırılsa bir stadyuma sığar. Düşünce deneyi
   - Bu üç video toplam 2.444 kredi; kalan ElevenLabs karakteri ≈ 105.046 (126.676 limit).
 - 2026-11-27 (günlük Shorts görevi): ses ElevenLabs `eleven_v4`, Can Seçkin (`rSuyucEH95GpZEfLV0AM`), perde kaydırma yok, tek take; görüntü `pipeline/stil_3d/dikey_kit.py`. Dinleme kontrolü: mp3 ayrı, yeni bir flow'a dosya olarak yüklendi ve `eleven_scribe_v1` o düğümden çalıştırıldı; transkriptlerde etiket yok, metin normalleştirilmiş ("A-Be-De" → "ABD", "Su ile" → "Suyla"), yani kontrol bağımsız; yanlış okunan kısaltma, sayı, birim ya da yabancı ad yok.
   - Ay bir stadyuma sığar mı: flow VklUlvHaaifgdPjvW32x (generation N6TbWp29sxGJuPOAWlEG), ses 46,11 sn, video 52,57 sn, 780 kredi (+253 dinleme kontrolü, flow k5EiQ0jxJ5ECdw4pjVF6), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/ay-bir-stadyuma-sigar-mi.txt`, kod `pipeline/stil_3d/render_ay_stadyum_3d.py`.
+  - Çekirdeği neden nötron böler: flow fPrYxnkrtBhpbp3gkcGQ (generation lQeQemeObmTLkQzWAgub), ses 44,75 sn, video 51,20 sn, 729 kredi (+246 dinleme kontrolü, flow ZQv3vc2Fo0ICYxxoF7ZD), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/cekirdegi-neden-notron-boler.txt`, kod `pipeline/stil_3d/render_notron_neden_3d.py`.
