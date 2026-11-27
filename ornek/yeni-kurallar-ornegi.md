@@ -2,7 +2,7 @@
 
 Tek seferlik örnek (2026-11-27). Hiçbir platforma yüklenmedi; `stok.md` ve `yayin-kaydi.md` değişmedi.
 
-- Video: `sogutma-kulesi-duman-mi.mp4` (stoğa taşındı) — 1080x1920, 30 fps, 52,97 sn (seslendirme 46,48 sn + 1,0 sn baş + 5,5 sn son kart), H.264 yuv420p, AAC 192k, faststart
+- Video: `sogutma-kulesi-duman-mi.mp4` (stoğa taşındı) — 1080x1920, 30 fps, 52,50 sn, düzeltme sonrası (ilk sürüm 52,97 sn; seslendirme 46,48 sn + 1,0 sn baş + 5,5 sn son kart), H.264 yuv420p, AAC 192k, faststart
 - Kontak sayfası: `ornek/yeni-kurallar-kareler.jpg`
 - Kod: `pipeline/stil_3d/render_sogutma_kulesi_3d.py` (sahneler), `pipeline/stil_3d/altyazi_kelime.py` (yeniden kullanılabilir kelime kelime altyazı)
 - Ses metni: `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`; kelime zamanları: `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.words.json`
@@ -39,9 +39,9 @@ Notlar: (c)'de DOE buzlu bardağı kondenser için örnek veriyor, kule için de
 
 ## Seslendirme metni (ElevenLabs'e giden, Türkçe okunuşla)
 
-> [curious] Nükleer santralin tepesindeki o beyaz bulut, aslında göl suyu. [pause] Duman gibi görünür. Ama A-Be-De Enerji Bakanlığı'na göre kuleden çıkan şey, gölden alınan suyun buharıdır. Bu su reaktörün yanına hiç gitmez. [pause] Santralde üç ayrı su döngüsü vardır. Sular birbirine karışmaz, yalnızca ısı aktarılır. [pause] Kulenin içinde ılık su aşağı süzülür ve bir kısmı buharlaşır. Nemli sıcak hava yükselir, tepeden saatte yaklaşık on altı kilometre hızla çıkar. [pause] A-Be-De Nükleer Düzenleme Kurulu'na göre bu bulut ılık su buharıdır ve radyoaktif değildir. Soğuk hava bu nemi tutamaz, görünür bir bulut oluşur, sonra havaya karışıp kaybolur. [pause] İki yüz metre yüksekliğiyle bu kule, çoğu zaman santralin en yüksek yapısıdır. [warmly] Devamı kanalda; takip et, kaçırma.
+> [curious] Nükleer santralin tepesindeki o beyaz bulut, aslında göl suyu. [pause] Duman gibi görünür. Ama A-Be-De Enerji Bakanlığı'na göre kuleden çıkan şey, gölden alınan suyun buharıdır. Bu su reaktörün yanına hiç gitmez. [pause] Santralde üç ayrı su döngüsü vardır. Sular birbirine karışmaz, yalnızca ısı aktarılır. [pause] Kulenin içinde ılık su aşağı süzülür ve bir kısmı buharlaşır. Nemli sıcak hava yükselir, tepeden saatte yaklaşık on altı kilometre hızla çıkar. [pause] A-Be-De Nükleer Düzenleme Kurulu'na göre bu bulut ılık su buharıdır ve radyoaktif değildir. Soğuk hava bu nemi tutamaz, görünür bir bulut oluşur, sonra havaya karışıp kaybolur. [pause] İki yüz metre yüksekliğiyle bu kule, çoğu zaman santralin en yüksek yapısıdır. Devamı kanalda; takip et, kaçırma.
 
-- **Okunuş taraması** (`grep -nP '\b[A-ZÇĞİÖŞÜ]{2,}\b|[%/=²³°≈×±]|\d[,.]\d|[A-Za-z]-?\d|[qwxQWX]'`, `LC_ALL=C.UTF-8` ile): tek eşleşme `[warmly]` yönerge etiketindeki "w". Bu etiket seslendirilmez. Metinde rakam, sembol ve kısaltma yok.
+- **Okunuş taraması** (`grep -nP '\b[A-ZÇĞİÖŞÜ]{2,}\b|[%/=²³°≈×±]|\d[,.]\d|[A-Za-z]-?\d|[qwxQWX]'`, `LC_ALL=C.UTF-8` ile): eşleşme yok (düzeltmeden önce tek eşleşme `[warmly]` etiketindeki "w" idi; etiket 2026-11-27'de kaldırıldı). Metinde rakam, sembol ve kısaltma yok.
   - Not: tarama Türkçe olmayan yerel ayarda çalıştırılırsa her Türkçe harfi yanlışlıkla işaretler. `LC_ALL=C.UTF-8` ile çalıştırın.
 - NRC kısaltması seste hiç geçmiyor, yalnızca "Nükleer Düzenleme Kurulu" deniyor (CLAUDE.md kuralı). Ekranda "(NRC)" normal yazımla yer alıyor.
 
@@ -149,3 +149,13 @@ mp3, ayrı bir flow'a (`xI9vsrrsTJYI24bSwgng`) dosya olarak yüklendi. Transkrip
   - "3. DÖNGÜ" etiketi kartla çakışıyordu.
   - Son kartın son 4,4 sn'si tek plandı, kesme eklendi.
 - Render'dan sonra mp4'ten 8 kare (0,0 · 4,2 · 8,9 · 16,6 · 21,5 · 27,6 · 33,7 · 47,0 sn) çıkarılıp incelendi: açılış yazısı ilk karede, altyazı söylenen kelimeyle eşzamanlı, vurgu kutuları, döngü çizimi, damga ve son kart doğru; parlama yok.
+
+## Düzeltme (2026-11-27): kapanış cümlesi aynı tonla
+
+Kullanıcı şikayeti: son cümle "Devamı kanalda; takip et, kaçırma." `[warmly]` etiketi yüzünden videonun geri kalanından farklı tonda okunmuştu.
+
+- **Yöntem A** (yalnız son cümleyi bağlamla yeniden üretip eklemek; flow `0kbExpb7clmsgME1Msus`, 150 + 51 kredi) **reddedildi**: son cümle önceki 3 cümleye göre perde +%20,7, hız −%25,2 (eşik %8 / %12).
+- **Yöntem B**: `[warmly]` silindi, tüm metin tek parça yeniden üretildi (`eleven_v4`, Can Seçkin, flow `06xDF6sWrRWOwBKlX9mx`, generation `4VLHdmZtQ1obE4NpFUAQ`, 776 kredi). Ses 46,0 sn, video 52,50 sn.
+- Son cümle / önceki 3 cümle: perde 134,5 / 148,4 Hz (−%9,4; ama anlatımın tüm cümle aralığı 132-162 Hz, tüm anlatım ortalamasına göre −%2,4), eklemleme hızı −%7,3 (eski: −%13,4), RMS +1,35 dB (eski +3,20 dB).
+- Dinleme kontrolü: ayrı flow `2YFyqrfN90mlvimQ3wel`, `eleven_scribe_v1` (253 kredi); transkript ses metniyle kelime kelime aynı. `words.json` bununla değişti; render zamanları (Z, END0, plan kesmeleri) yeni kelime zamanlarına kaydırıldı. "Takip" 45,74 sn, TAKİP ET düğmesi onunla eşzamanlı.
+- Ses -14,1 LUFS / tepe -2,5 dBFS. Parlama: ≥245 oranı en kötü %0,00, sıçrama en kötü %19,9. En uzun plan 3,73 sn.

@@ -72,3 +72,6 @@ uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilg
   sağda 140 px boşluk, 1-3 kelime, Poppins ExtraBold 72, vurgu #3fd0ff / #ffb547 kutu, sesteki okunuş `degistir` ile
   normal yazıma döner). Örnek kullanım ve parlama ölçümü (`... olc`): `render_sogutma_kulesi_3d.py` →
   `ornek/yeni-kurallar-ornegi.mp4`.
+- Kapanış/takip cümlesine farklı duygu etiketi ([warmly] vb.) KONMAZ; tüm seslendirme tek tonda okunur (kullanıcı 2026-11-27).
+  Soğutma kulesi Short'unda `[warmly] Devamı kanalda; takip et, kaçırma.` ayrı tonda okunduğu için etiket silinip ses tek
+  parça yeniden üretildi. `altyazi_kelime.Altyazi` vurgu listesinde bir cümleye demet verilebilir (`("yükselir", "16 km")`).

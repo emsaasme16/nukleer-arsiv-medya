@@ -68,14 +68,15 @@ class Altyazi:
             hedef = vurgu[i] if i < len(vurgu) else ""
             for w in c:
                 w["vurgu"] = None
-            if hedef:
+            # bir cümlede birden çok vurgu: demet ver, ör. ("yükselir", "16 km")
+            for h in (hedef if isinstance(hedef, (tuple, list)) else ([hedef] if hedef else [])):
                 for w in c:
-                    if _norm(w["text"]) == _norm(hedef) or w["text"].rstrip(".,;:!?") == hedef:
+                    if w["vurgu"] is None and (_norm(w["text"]) == _norm(h) or w["text"].rstrip(".,;:!?") == h):
                         w["vurgu"] = renkler[ci % len(renkler)]
                         ci += 1
                         break
                 else:
-                    raise ValueError("vurgu bulunamadı: cümle %d '%s'" % (i, hedef))
+                    raise ValueError("vurgu bulunamadı: cümle %d '%s'" % (i, h))
         self.cumleler = cumleler
         # gruplar: 1-3 kelime, cümle sonunda / virgülde / uzun duraklamada kır
         self.gruplar = []

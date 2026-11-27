@@ -34,7 +34,7 @@ Devamı kanalda: Bölüm 2.
 
 ---
 
-## 4. sogutma-kulesi-duman-mi.mp4 (52,97 sn)
+## 4. sogutma-kulesi-duman-mi.mp4 (52,50 sn)
 
 **YouTube başlığı:** Soğutma kulesinden çıkan duman mı? #Shorts
 
@@ -81,4 +81,4 @@ Takip et · Kaydet 🔖
   - Çekirdeği neden nötron böler: flow fPrYxnkrtBhpbp3gkcGQ (generation lQeQemeObmTLkQzWAgub), ses 44,75 sn, video 51,20 sn, 729 kredi (+246 dinleme kontrolü, flow ZQv3vc2Fo0ICYxxoF7ZD), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/cekirdegi-neden-notron-boler.txt`, kod `pipeline/stil_3d/render_notron_neden_3d.py`.
   - Bir fisyon ne kadar sürer: flow HA1iagpMGeSAHdRcBGTO (generation UAr251DjYM3gnVEX8lBs), ses 43,89 sn, video 50,33 sn, 743 kredi (+241 dinleme kontrolü, flow dYhPvvruGg6QiR48Yd4H), AAC sonrası -14,1 LUFS / tepe -2,5 dBFS. Metin `pipeline/stil_3d/metinler/bir-fisyon-ne-kadar-surer.txt`, kod `pipeline/stil_3d/render_fisyon_sure_3d.py`.
   - Bu üç video: ses 2.252 + dinleme kontrolü 740 = 2.992 kredi; kalan ElevenLabs karakteri ≈ 96.737 (126.676 limit; üretimden önce hesapta kalan 99.729).
-  - Soğutma kulesinden çıkan duman mı (yeni kurallar örneği): flow SbKfV1Ow0j2NpRpNlHoY (generation Qzy1qQ2ySSoxeQ6teK6d), ses 46,48 sn, video 52,97 sn, 785 kredi (+256 dinleme kontrolü, flow xI9vsrrsTJYI24bSwgng), AAC sonrası -14,1 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`, kod `pipeline/stil_3d/render_sogutma_kulesi_3d.py`. Yeni kurallar örneği: açılış 10/10, 23 kesme, parlama en kötü %0,43 / sıçrama %19,2.
+  - Soğutma kulesinden çıkan duman mı (yeni kurallar örneği): flow 06xDF6sWrRWOwBKlX9mx (generation 4VLHdmZtQ1obE4NpFUAQ), ses 46,0 sn, video 52,50 sn; 2026-11-27 düzeltme: kapanış cümlesi aynı tonla yeniden seslendirildi, yöntem B ([warmly] silinip tüm metin tek parça yeniden üretildi; yöntem A denendi, perde +%20,7 farkla reddedildi). Kredi: 776 ses + 253 dinleme kontrolü (flow 2YFyqrfN90mlvimQ3wel) + 201 yöntem A denemesi = 1.230 (ilk üretim 1.041 ayrıca). AAC sonrası -14,1 LUFS / tepe -2,5 dBFS. Metin `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`, kod `pipeline/stil_3d/render_sogutma_kulesi_3d.py`. Açılış 10/10, 23 kesme, parlama en kötü %0,00 / sıçrama %19,9.

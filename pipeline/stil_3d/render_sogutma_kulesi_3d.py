@@ -19,21 +19,22 @@ import santral
 from altyazi_kelime import Altyazi
 
 NAME = "yeni-kurallar-ornegi"
-TOTAL = 52.98
+TOTAL = 52.5
 NFRAMES = int(round(TOTAL * FPS))
 BOLUM = 2
 NOTXT = os.environ.get("NOTXT") == "1"      # parlama olcumu icin yazisiz kare
 
 WORDS = os.path.join(HERE, "metinler", "sogutma-kulesi-duman-mi.words.json")
-VURGU = ["göl", "buharıdır", "gitmez", "üç", "karışmaz", "buharlaşır", "yükselir", "16 km", "radyoaktif", "tutamaz",
+VURGU = ["göl", "buharıdır", "gitmez", "üç", "karışmaz", "buharlaşır", ("yükselir", "16 km"), "radyoaktif", "tutamaz",
          "kaybolur", "200 metre", "kanalda", "takip"]
 AY = Altyazi(WORDS, 1.0, VURGU, {("on", "altı", "kilometre"): "16 km", ("iki", "yüz", "metre"): "200 metre"})
 
 # cumle/ifade baslangiclari (video saniyesi = transkript + 1,0)
-Z = dict(duman=5.48, ama=6.9, buharidir=11.24, bu_su=12.14, santralde=14.7, sular=17.18, yalnizca=18.74,
-         kulenin=20.52, kismi=23.08, nemli=24.62, tepeden=26.2, yaklasik=27.06, nrc=29.62, radyoaktif=33.58,
-         soguk=35.08, gorunur=36.78, sonra=38.22, iki_yuz=40.12, santralin=42.68, devami=44.86, takip=46.08)
-END0 = 44.7
+# 2026-11-27: kapanis cumlesi [warmly] olmadan yeniden seslendirildi (yontem B); zamanlar yeni transkripte kaydirildi
+Z = dict(duman=5.58, ama=6.94, buharidir=11.14, bu_su=12.08, santralde=14.62, sular=17.04, yalnizca=18.58,
+         kulenin=20.3, kismi=22.82, nemli=24.44, tepeden=26.04, yaklasik=26.88, nrc=29.44, radyoaktif=33.34,
+         soguk=34.9, gorunur=36.58, sonra=38.14, iki_yuz=39.96, santralin=42.54, devami=44.62, takip=45.74)
+END0 = 44.47
 
 # ----------------------------------------------------------------- malzemeler (hepsi mat; parlama yok)
 SU_MAT = Mat(srgb((34, 46, 54)), 0.78, 0.0, pat="su", scale=0.25)        # gol: puruzlu, spekuler dusuk
@@ -309,13 +310,13 @@ def sh_son3(u, t):
     return dis_sahne(t, cam)
 
 
-SHOTS = [(-1.0, sh_a1), (2.7, sh_a2), (Z["duman"] - 0.15, sh_duman), (Z["ama"] + 0.6, sh_gol1), (9.9, sh_gol2),
+SHOTS = [(-1.0, sh_a1), (2.72, sh_a2), (Z["duman"] - 0.15, sh_duman), (Z["ama"] + 0.6, sh_gol1), (9.82, sh_gol2),
          (Z["bu_su"] - 0.1, sh_reaktor), (Z["santralde"] - 0.1, sh_dongu1), (Z["sular"] - 0.1, sh_dongu2),
-         (Z["yalnizca"] - 0.05, sh_dongu3), (Z["kulenin"] - 0.1, sh_ic1), (22.5, sh_ic2),
-         (Z["nemli"] - 0.1, sh_tepe1), (Z["tepeden"] - 0.1, sh_tepe2), (28.2, sh_tepe3),
-         (Z["nrc"] - 0.1, sh_nrc1), (31.7, sh_nrc2), (Z["radyoaktif"] - 0.2, sh_nrc3),
+         (Z["yalnizca"] - 0.05, sh_dongu3), (Z["kulenin"] - 0.1, sh_ic1), (22.26, sh_ic2),
+         (Z["nemli"] - 0.1, sh_tepe1), (Z["tepeden"] - 0.1, sh_tepe2), (28.03, sh_tepe3),
+         (Z["nrc"] - 0.1, sh_nrc1), (31.53, sh_nrc2), (Z["radyoaktif"] - 0.2, sh_nrc3),
          (Z["soguk"] - 0.1, sh_bulut1), (Z["gorunur"] + 0.3, sh_bulut2), (Z["iki_yuz"] - 0.1, sh_boy1),
-         (42.4, sh_boy2), (END0, sh_son1), (48.6, sh_son2), (51.15, sh_son3)]
+         (42.26, sh_boy2), (END0, sh_son1), (48.2, sh_son2), (50.75, sh_son3)]
 
 # ----------------------------------------------------------------- dongu cizimi (2D bindirme, 3D noktalardan)
 LOOPS = [
@@ -357,7 +358,7 @@ def yazilar(img, t):
     lines(img, [("O BEYAZ BULUT,", WHITE), ("ASLINDA GÖL SUYU", AMBER)], 430, a, 92)
     label(img, "DUMAN MI?", 540, 470, win(t, Z["duman"], Z["ama"] + 0.55, 0.25), 110, WHITE, F_XB)
     label(img, "ABD ENERJİ BAKANLIĞI (DOE):", 540, 380, win(t, Z["ama"] + 0.6, Z["bu_su"] - 0.1, 0.3), 46, CYAN, F_B)
-    cardl(img, ["Kuleden çıkan:", "göl suyunun buharı"], 540, 520, win(t, 8.6, Z["bu_su"] - 0.1, 0.3), 58, amber=True)
+    cardl(img, ["Kuleden çıkan:", "göl suyunun buharı"], 540, 520, win(t, 8.56, Z["bu_su"] - 0.1, 0.3), 58, amber=True)
     lines(img, [("REAKTÖRE", WHITE), ("HİÇ YAKLAŞMAZ", AMBER)], 430, win(t, Z["bu_su"] + 0.3, Z["santralde"] - 0.1, 0.3), 88)
     lines(img, [("3 AYRI", AMBER), ("SU DÖNGÜSÜ", WHITE)], 420, win(t, Z["santralde"] + 0.2, Z["sular"] - 0.1, 0.3), 92)
     cardl(img, ["Sular karışmaz"], 540, 420, win(t, Z["sular"] + 0.5, Z["kulenin"] - 0.1, 0.3), 62)
@@ -367,7 +368,7 @@ def yazilar(img, t):
     lines(img, [("NEMLİ SICAK HAVA", WHITE), ("YÜKSELİR", AMBER)], 430, win(t, Z["nemli"] + 0.1, Z["tepeden"] - 0.1, 0.3), 86)
     cardl(img, ["≈ 16 km/sa"], 540, 470, win(t, Z["yaklasik"], Z["nrc"] - 0.1, 0.3), 96, amber=True)
     lines(img, [("ABD NÜKLEER DÜZENLEME", CYAN), ("KURULU (NRC):", CYAN)], 360, win(t, Z["nrc"] + 0.1, Z["soguk"] - 0.1, 0.3), 50)
-    cardl(img, ["Ilık su buharı"], 540, 540, win(t, 31.0, Z["soguk"] - 0.1, 0.3), 70)
+    cardl(img, ["Ilık su buharı"], 540, 540, win(t, 30.84, Z["soguk"] - 0.1, 0.3), 70)
     stamp(img, "RADYOAKTİF DEĞİL", 540, 700, fade(t, Z["radyoaktif"] - 0.1, Z["radyoaktif"] + 0.15) *
           (1 - fade(t, Z["soguk"] - 0.3, Z["soguk"] - 0.05)), GREEN, 76,
           pop=0.3 * (1 - fade(t, Z["radyoaktif"] - 0.1, Z["radyoaktif"] + 0.3)))
@@ -402,7 +403,7 @@ def kapanis(img, t):
 def frame(t, yazi=None):
     yazi = (not NOTXT) if yazi is None else yazi
     img = shots(t, SHOTS, xf=0.35)
-    if t < 14.7 + 0.1 or t > 20.6:
+    if t < Z["santralde"] + 0.1 or t > 20.38:
         pass
     else:
         # dongu planlari: kamera her karede yeniden kuruluyor, ayni kamerayi bindirme icin tekrar hesapla
