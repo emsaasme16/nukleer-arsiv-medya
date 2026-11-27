@@ -26,6 +26,9 @@ from common3d import T, pill, blit, F_XB, F_B, F_SB, F_M, F_GR, CYAN, AMBER, WHI
 
 W, H = 1080, 1920
 NAVYTXT = (10, 22, 56)
+# Zemin/yer duzlemleri icin varsayilan mat malzeme (kullanici 2026-11-27 parlama sikayeti): koyu ton, tam purluzlu,
+# metal yok. Yer duzlemine acik gri/parlak beton koyma; bloom zemine ulasmasin diye zemin HDR'de esigin altinda kalir.
+ZEMIN_MAT = Mat(srgb((56, 56, 58)), 1.0, 0.0, pat="beton", scale=0.35)
 _cache = {}
 
 

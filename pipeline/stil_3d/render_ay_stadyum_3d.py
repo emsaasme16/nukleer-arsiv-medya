@@ -25,6 +25,8 @@ TOPRAK_S = Mat(srgb((150, 104, 70)), 0.95, pat="toprak", scale=0.4)
 CIM_S = Mat(srgb((54, 104, 46)), 0.9, pat="cim", scale=0.12)
 AY_MAT = Mat(srgb((112, 110, 106)), 0.95, 0.0, pat="beton", scale=0.05)
 AY_KOYU = Mat(srgb((92, 92, 96)), 0.95, 0.0, pat="beton", scale=0.02)
+ZEMIN_ASFALT = ZEMIN_MAT.but(col=srgb((38, 38, 40)), pat="asfalt", scale=1.0)
+ZEMIN_BETON = ZEMIN_MAT.but(col=srgb((50, 50, 51)), pat="beton", scale=0.35)
 SX, SZ = 1.0, 0.86          # oval olcek
 BINA = [Mat(srgb((70, 74, 82)), 0.7, 0.1, pat="boya", scale=0.5), Mat(srgb((96, 90, 80)), 0.8, pat="beton", scale=0.3),
         Mat(srgb((54, 60, 70)), 0.5, 0.2, pat="boya", scale=0.5)]
@@ -52,8 +54,9 @@ DIS = ("stad_dis", m_dis)
 
 
 def stadyum(S, night=True):
-    S.add(BOX, TRS((0, -0.5, 0), s=(3000, 1.0, 3000)), santral.ASFALT)
-    S.add(BOX, TRS((0, -0.3, 0), s=(330, 0.6, 290)), santral.BETON_KOYU)
+    # zemin mat (2026-11-27 parlama duzeltmesi): koyu, purluzlu, spekulersiz; eski acik gri beton parliyordu
+    S.add(BOX, TRS((0, -0.5, 0), s=(3000, 1.0, 3000)), ZEMIN_ASFALT)
+    S.add(BOX, TRS((0, -0.3, 0), s=(330, 0.6, 290)), ZEMIN_BETON)
     S.add(CYL, TRS((0, 0.05, 0), s=(86, 0.2, 86 * SZ)), CIM_S)
     S.add(TRB, TRS((0, 0, 0), s=(SX, 1, SZ)), TRIBUN)
     S.add(DIS, TRS((0, 0, 0), s=(SX, 1, SZ)), TRIBUN_BETON)
@@ -107,7 +110,7 @@ def gece_ortam(S):
     S.sun_col = (0.55, 0.6, 0.75)
     S.amb = 0.7
     S.exposure = 1.0
-    S.shadow_box = ((0, 10, 0), 160)
+    S.shadow_box = ((0, 10, 0), 300)    # 160 zemin betonunun disini kapsamiyordu: sinirda keskin aydinlik takozlar
     S.shadow_bias = 0.002
     S.ssao_r = 1.2
     S.fog = (0.0012, 0.02, 0.0, 0.6)

@@ -63,3 +63,8 @@ uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilg
   `render_kayip_kutle_3d.py` (kayip-kutle-nereye-gider), `render_uranyum_bolunur_3d.py` (uranyumun-hepsi-bolunur-mu).
 - Çalıştırma: `WORK=/tmp/s1 python3 render_uranyum_komur_3d.py still 1 9 20` (kare kontrolü), sonra `... render`
   → `$WORK/<ad>.mp4`. 4 çekirdekte bir video ≈ 15-25 dk.
+
+- Zemin/yer düzlemleri mat: speküler düşük, bloom zemine uygulanmaz — kullanıcı 2026-11-27 parlama şikayeti.
+  `dikey_kit.ZEMIN_MAT` (koyu ton, pürüzlülük 1.0, metal 0) yer düzlemlerinde varsayılan; açık gri beton döşeme
+  kullanma. `shadow_box` yarıçapı zemin döşemesini tamamen kapsamalı, yoksa gölge haritası sınırında keskin
+  aydınlık takozlar oluşur (ay-bir-stadyuma-sigar-mi v2: 160 → 300).
