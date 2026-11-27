@@ -68,3 +68,7 @@ uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilg
   `dikey_kit.ZEMIN_MAT` (koyu ton, pürüzlülük 1.0, metal 0) yer düzlemlerinde varsayılan; açık gri beton döşeme
   kullanma. `shadow_box` yarıçapı zemin döşemesini tamamen kapsamalı, yoksa gölge haritası sınırında keskin
   aydınlık takozlar oluşur (ay-bir-stadyuma-sigar-mi v2: 160 → 300).
+- Kelime kelime altyazı (2026-11-27): `altyazi_kelime.py` (`Altyazi(words.json, ofset, vurgu, degistir)`; alttan %28,
+  sağda 140 px boşluk, 1-3 kelime, Poppins ExtraBold 72, vurgu #3fd0ff / #ffb547 kutu, sesteki okunuş `degistir` ile
+  normal yazıma döner). Örnek kullanım ve parlama ölçümü (`... olc`): `render_sogutma_kulesi_3d.py` →
+  `ornek/yeni-kurallar-ornegi.mp4`.

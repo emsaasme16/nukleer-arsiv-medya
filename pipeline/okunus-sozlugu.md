@@ -25,3 +25,4 @@ Ekran yazısı, altyazı ve açıklamalar normal yazımla kalır. Bu liste yaln�
 
 - 2026-11-27: "A-Be-De Enerji Bakanlığı" → transkriptte "ABD Enerji Bakanlığı" (doğru); "uranyum iki yüz otuz beş" → "Uranyum 235"; "iki yüz mega elektronvolt" → "iki yüz mega elektronvolt"; "yüz altmış yedisi" → "167'si".
 - Yankee Stadium seste söylenmedi ("Amerika'daki bir beyzbol stadyumu"); ekranda "YANKEE STADIUM'A SIĞARDI" yazar.
+- 2026-11-27 (ornek/yeni-kurallar-ornegi): bu kez transkript gerçekten bağımsız çıktı (etiketler yok, "A-Be-De" → "ABD"): "A-Be-De Nükleer Düzenleme Kurulu" → "ABD Nükleer Düzenleme Kurulu"; "on altı kilometre" → "on altı kilometre"; "iki yüz metre" → "İki yüz metre".
