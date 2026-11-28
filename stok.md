@@ -70,6 +70,35 @@ Takip et · Kaydet 🔖
 
 ---
 
+## 6. reaktoru-yoneten-gec-notronlar.mp4 (57,80 sn)
+
+**YouTube başlığı:** Reaktörü kim yönetir? Geç kalan nötronlar #Shorts
+
+**YouTube açıklaması:**
+60 saniyede: Bir uranyum-235 çekirdeği bölündüğünde nötronların %99'undan fazlası yaklaşık 10⁻¹³ saniye içinde çıkar; bunlara anlık nötron denir. ABD Enerji Bakanlığı'nın (DOE) reaktör teorisi el kitabına göre küçük bir kısmı ise gecikmiş nötrondur: önce bir bölünme parçası beta bozunmasına uğrar, nötron ancak ondan sonra çıkar. Bu bekleme saniyenin bir kesrinden neredeyse bir dakikaya kadar sürer. U-235'te bütün nötronların yalnızca 0,0065'i (1.000'de 6,5) gecikmiş nötrondur. El kitabının örneğinde, yalnız anlık nötronlarla bir nötron kuşağı 5 × 10⁻⁵ saniye (saniyenin 20 binde biri) sürer; gecikmiş nötronlar hesaba katılınca 0,0813 saniyeye çıkar (yaklaşık 1.600 kat; hesap). El kitabına göre gecikmiş nötronlar tepkimeyi yavaşlatmasaydı güç çok hızlı sıçrardı ve kontrol mümkün olmazdı. Seslendirme yapay ses ile yapılmıştır.
+
+Kaynaklar:
+- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 1" (DOE-HDBK-1019/1-93), "Prompt and Delayed Neutrons": https://www.energy.gov/documents/doe-hdbk-1019-93vol1
+
+Devamı kanalda: Bölüm 3.
+
+#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
+
+**Instagram metni:**
+60 saniyede: 1.000 nötrondan yalnızca 6,5'i geç doğar ve reaktörü onlar yönetir. Nötronların %99'undan fazlası bölünmeyle aynı anda çıkar; gecikmiş nötronlar ise bir bölünme parçası bozunduktan sonra, saniyenin kesrinden neredeyse bir dakikaya kadar bekleyip gelir. Bu gecikme nötron kuşağını yaklaşık 1.600 kat uzatır ve reaktörü kontrol edilebilir yapar. Kaynak: ABD Enerji Bakanlığı (DOE-HDBK-1019/1-93, Prompt and Delayed Neutrons). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
+Takip et · Kaydet 🔖
+#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
+
+**Kaynaktan okunan cümleler:**
+- DOE-HDBK-1019/1-93, s. 29: "The great majority (over 99%) of the neutrons produced in fission are released within about 10-13 seconds of the actual fission event. These are called prompt neutrons. A small portion of fission neutrons are delayed neutrons, which are produced for some time after the fission process has taken place. The delayed neutrons are emitted immediately following the first beta decay of a fission fragment known as a delayed neutron precursor."
+- DOE-HDBK-1019/1-93, s. 30: "The delayed neutron fractions (β) for the fissile nuclides of most interest are as follows: uranium-233 (0.0026), uranium-235 (0.0065), uranium-238 (0.0148), and plutonium-239 (0.0021)." (Tablo 3: U-235 öncül grupları yarı ömrü 0,23-55,7 s.)
+- DOE-HDBK-1019/1-93, s. 32 (özet): "Half-lives vary from fractions of a second to almost a minute."
+- DOE-HDBK-1019/1-93, s. 31: "A neutron generation time in the range of 10-4 seconds to 10-5 seconds or faster could result in very rapid power excursions, and control would not be possible without the dependence upon delayed neutrons to slow down the rate of the reaction."
+- DOE-HDBK-1019/1-93, s. 31 (örnek): "If a reactor were to be operated in a sustained chain reaction using only prompt neutrons (β = 0), the generation time from the previous example would be about 5 x 10-5 seconds. However, by operating the reactor such that a 0.0065 fraction of neutrons are delayed, the generation life time is extended to 0.0813 seconds, providing time for adequate operator control." (0,0813 / 0,00005 ≈ 1.626 → "yaklaşık 1.600 kat", hesap.)
+- Görsel not: atom ölçeğinde bölünme parçası olarak Rb-93 paketi çizildi (genel "bölünme parçası"; seste ve ekranda belirli bir çekirdek adı yok); hızlı/yavaş zincirlerdeki tempo farkı temsilîdir.
+
+---
+
 ## Üretim notu
 
 - Ses: ElevenLabs `eleven_v4`, Cem (`mScWJwY9Ty24PwwvyNcA`), tek take. Flow'lar: NZHOcMGWVNOweRRCQKbI (radyasyon, 46,16 sn, 774 kredi), 0vaC2x7BATDHaeOocCvP (yakıt, 49,60 sn, 887 kredi).
@@ -95,4 +124,11 @@ Takip et · Kaydet 🔖
   - Parlama kontrolü: düzeltildi → geçti. İlk ölçümde parlak alan en çok %1,8 ama sahne geçişlerinde sıçrama %323'e çıkıyordu (gündüz dış plan ↔ koyu atom ölçeği). Atom zemini açıldı, dış planlar poz 0,8, kare başına parlaklık eşitleme (`esitle`, `HEDEF`) eklendi, son kart karartması 4 sn. Render öncesi yazısız ölçüm: en kötü %0,97 / sıçrama %17,6; final videoda (yazılar dahil, 2 kare/sn): %1,21 / %17,0.
   - Tempo: 22 plan, en uzun plan ≈ 3 sn; kelime kelime altyazı (`altyazi_kelime.py`, son kartta gizli) kareler üzerinde kontrol edildi.
   - Kalan ElevenLabs karakteri: 94.466 − 950 ≈ 93.516 (126.676 limit).
-
+- 2026-11-28 (günlük Shorts görevi, ikinci çalışma): stokta 2 video vardı, 1 yeni Short üretildi. Ses ElevenLabs `eleven_v4`, Can Seçkin (`rSuyucEH95GpZEfLV0AM`), perde kaydırma yok, tek take; haftalık ders dosyası (`analiz/haftalik-ders.md`) depoda yok.
+  - Reaktörü yöneten geç nötronlar: flow 4mQAL7qeOkUcJDlsuAyd (generation gURQl7aJaw8zDOXAm3Rx), ses 52,16 sn (kapanış eklendikten sonra 52,03 sn), video 57,80 sn, AAC sonrası -14,2 LUFS / tepe -2,4 dBFS. Metin `pipeline/stil_3d/metinler/reaktoru-yoneten-gec-notronlar.txt`, kod `pipeline/stil_3d/render_gec_notron_3d.py`. Format: 60 saniyede (Bölüm 3: zincirleme tepkime ve kritiklik). Kaynak: DOE-HDBK-1019/1-93 s. 29-32.
+  - Açılış cümlesi adayları (0-2 × 5 ölçüt: anlaşılır / merak / somut / doğrulanabilir / doğal Türkçe): (a) "Bin nötrondan yalnızca altı buçuğu geç doğar." 2+2+2+2+1 = **9 (seçildi)**; (e) "Bütün nötronlar aynı anda doğsaydı ne olurdu?" 2+2+1+2+2 = 9 (eşitlikte daha somut olan seçildi); (f) "Reaktörü yöneten nötronlar, en geç gelenlerdir." 2+2+1+2+2 = 9; (j) "Saniyenin yirmi binde birinde bir nötron kuşağı biter." 2+1+2+2+1 = 8; (i) "Reaktörü kontrol edilebilir yapan şey bir gecikmedir." 2+2+0+2+2 = 8. Aynı günün öbür Short'u (b) kalıbını kullandı; bu (a). İlk karede "1.000 NÖTRONDAN / 6,5'İ GEÇ DOĞAR".
+  - Okunuş taraması (UTF-8 yerelinde `grep -P`, etiketler hariç): eşleşme yok. Dinleme kontrolü: mp3 ayrı flow'a (DRIxhD4MLVeYUcBXhyXu) yüklendi, `eleven_scribe_v1` o düğümden çalıştı (287 kredi); transkriptte etiket yok, "A-Be-De" → "ABD", "yüzde doksan dokuz" → "%99" (bağımsız); kısaltma/sayı/birim/yabancı ad hatası yok. Tek fark: "bozunur" → transkriptte "bozulur" (Türkçe sözcük; ASR mı ses mi, kulakla doğrulanmalı; altyazıda "bozunur").
+  - Kapanış ton kontrolü (YIN perde izleyici, oktav düzeltmeli; anlatım cümle ortalaması 155,4 Hz, aralık p90-p10 9,05 yt): ilk kayıt kapanışı 93,2 Hz (−%40,0), aralık 0,59 yt → tutmadı. Bağlamlı kapanış ("[curious] Yani … nötronlardır. [calm] Devamı kanalda. Takip et, kaçırma.") 2 kez üretildi: V1 AdVTYn2LXjd27vuEw7vs 134,6 Hz (−%13,4), aralık 5,51 yt (%61); V2 Duu2wZDShK7wiRKOt9RN 128,2 Hz (−%17,5), 4,81 yt (%53). İkisi de ±%8'i tutmadı; en yakın V1 seçildi. Kalibrasyon: kullanıcının seçtiği referans kayıt (V6nmZzF1KrHlova21s8g) aynı ölçümle kendi bağlamının −%18'i, yani V1 referanstan daha yakın; kulakla doğrulanmalı. V1'in "Devamı"ndan sonrası ana sese 49,10 sn'de (sessiz aralık) 30 ms geçişle eklendi, RMS bağlam cümlesine eşitlendi (−2,8 dB). V1 bağımsız transkripti (41 kredi) metinle aynı.
+  - Parlama kontrolü: düzeltildi → geçti. Ham ölçümde sahne geçişlerinde sıçrama %174,7 (dış plan ↔ atom ölçeği); `HEDEF` eğrisi + `esitle` ile yazısız ölçüm en kötü %1,60 / %16,0; final videoda (yazılar dahil, 2 kare/sn) %1,87 / %19,8.
+  - Tempo: 28 plan, en uzun 2,84 sn; kelime kelime altyazı (`altyazi_kelime.py`, son kartta gizli) kareler üzerinde kontrol edildi ("bozunur,," çift virgül hatası düzeltildi, 2 dilim yeniden çizildi).
+  - Kredi: 821 ses + 2 × 117 kapanış varyantı + 287 + 41 dinleme kontrolü = 1.383 (araç fiyatı); hesap sayacına göre harcanan 1.632. Kalan ElevenLabs karakteri (hesap): 90.144 (126.676 limit).

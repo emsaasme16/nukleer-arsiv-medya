@@ -48,7 +48,7 @@ WORDS = os.path.join(HERE, "metinler", NAME + ".words.json")
 VURGU = ["6,5'i", "yöneten", "%99'undan", "anlık", "bekler", "bozunur", ("kesrinden", "dakikaya"), "önemli",
          ("1/20.000'i",), "1.600", ("sıçrardı", "edilemezdi"), ("dizginleyen", "geç"), "kanalda", "takip"]
 AY = Altyazi(WORDS, O, VURGU, {("bin", "nötrondan"): "1.000 nötrondan", ("altı", "buçuğu"): "6,5'i",
-                               ("bozulur,",): "bozunur,", ("yirmi", "binde", "biri"): "1/20.000'i",
+                               ("bozulur",): "bozunur", ("yirmi", "binde", "biri"): "1/20.000'i",
                                ("bin", "altı", "yüz"): "1.600"}, son=END0)
 
 
