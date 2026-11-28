@@ -2,7 +2,7 @@
 """Gercekci 3D Short: Sogutma kulesinden cikan duman mi? (ornek/yeni-kurallar-ornegi.mp4), 1080x1920, 30 fps.
 
 Yeni kurallar ornegi (2026-11-27): acilis cumlesi puanlamasi, kelime kelime altyazi (altyazi_kelime.py), 2-3 sn'de bir
-goruntu degisimi, parlamasiz (mat zemin/su, bloom yalniz kucuk isiklarda), 'Devami kanalda; takip et, kacirma.' kapanisi.
+goruntu degisimi, parlamasiz (mat zemin/su, bloom yalniz kucuk isiklarda), '[calm] Devami kanalda. Takip et, kacirma.' kapanisi.
 
 Ses: $WORK/mix.wav (../uzun_3d/sesler.py, TAIL=5.5). Zamanlar bagimsiz transkriptin kelime zamanlarindan (+1,0 sn):
 metinler/sogutma-kulesi-duman-mi.words.json.
@@ -19,7 +19,7 @@ import santral
 from altyazi_kelime import Altyazi
 
 NAME = "yeni-kurallar-ornegi"
-TOTAL = 52.5
+TOTAL = 52.87
 NFRAMES = int(round(TOTAL * FPS))
 BOLUM = 2
 NOTXT = os.environ.get("NOTXT") == "1"      # parlama olcumu icin yazisiz kare
@@ -31,10 +31,11 @@ AY = Altyazi(WORDS, 1.0, VURGU, {("on", "altı", "kilometre"): "16 km", ("iki", 
 
 # cumle/ifade baslangiclari (video saniyesi = transkript + 1,0)
 # 2026-11-27: kapanis cumlesi [warmly] olmadan yeniden seslendirildi (yontem B); zamanlar yeni transkripte kaydirildi
-# 2026-11-28: kapanis sakin tonla yeniden seslendirildi (V3 [calm], mevcut sese eklendi); zamanlar birlesik sesin transkriptinden
+# 2026-11-28: kapanis kullanicinin kulakla sectigi 2 numara ([calm], flow ZMWmxdkHR2yJopH7fBR2 / V6nmZzF1KrHlova21s8g)
+#   ana sese eklendi; ses 46,37 sn, devami/takip birlesik sesin bagimsiz transkriptinden
 Z = dict(duman=5.58, ama=6.94, buharidir=11.14, bu_su=12.08, santralde=14.62, sular=17.04, yalnizca=18.58,
          kulenin=20.3, kismi=22.82, nemli=24.44, tepeden=26.04, yaklasik=26.88, nrc=29.44, radyoaktif=33.34,
-         soguk=34.9, gorunur=36.58, sonra=38.14, iki_yuz=39.96, santralin=42.54, devami=44.64, takip=45.74)
+         soguk=34.9, gorunur=36.58, sonra=38.14, iki_yuz=39.96, santralin=42.54, devami=44.68, takip=45.96)
 END0 = 44.47
 
 # ----------------------------------------------------------------- malzemeler (hepsi mat; parlama yok)
@@ -317,7 +318,7 @@ SHOTS = [(-1.0, sh_a1), (2.72, sh_a2), (Z["duman"] - 0.15, sh_duman), (Z["ama"] 
          (Z["nemli"] - 0.1, sh_tepe1), (Z["tepeden"] - 0.1, sh_tepe2), (28.03, sh_tepe3),
          (Z["nrc"] - 0.1, sh_nrc1), (31.53, sh_nrc2), (Z["radyoaktif"] - 0.2, sh_nrc3),
          (Z["soguk"] - 0.1, sh_bulut1), (Z["gorunur"] + 0.3, sh_bulut2), (Z["iki_yuz"] - 0.1, sh_boy1),
-         (42.26, sh_boy2), (END0, sh_son1), (48.2, sh_son2), (50.75, sh_son3)]
+         (42.26, sh_boy2), (END0, sh_son1), (48.4, sh_son2), (50.95, sh_son3)]
 
 # ----------------------------------------------------------------- dongu cizimi (2D bindirme, 3D noktalardan)
 LOOPS = [
