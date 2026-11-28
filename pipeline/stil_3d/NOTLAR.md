@@ -75,3 +75,8 @@ uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilg
 - Kapanış/takip cümlesine farklı duygu etiketi ([warmly] vb.) KONMAZ; tüm seslendirme tek tonda okunur (kullanıcı 2026-11-27).
   Soğutma kulesi Short'unda `[warmly] Devamı kanalda; takip et, kaçırma.` ayrı tonda okunduğu için etiket silinip ses tek
   parça yeniden üretildi. `altyazi_kelime.Altyazi` vurgu listesinde bir cümleye demet verilebilir (`("yükselir", "16 km")`).
+- Parlaklık eşitleme (2026-11-28, `render_reaktor_kritik_3d.py`): gündüz dış plan (ort. ~135) ile koyu atom ölçeği (~22)
+  arasındaki kesmeler 0,5 sn'de %20 sıçrama sınırını aşıyordu. Çözüm: atom sahnesinin zemini açıldı (S.bg lacivert,
+  ort. ~51), dış planlar poz 0,8; sonra `NORM=0 ... olc` ile ham eğri ölçülür, `hedef_hesapla()` log parlaklıkta
+  ileri/geri kırpmanın (0,5 sn'de ≤ %14) ortalamasını `HEDEF` listesine yazar, `esitle()` her kareyi bu hedefe kazanç
+  (< 1) ya da gama (> 1, beyazı patlatmaz) ile çeker. Son kart karartması 4 sn'ye yayıldı. Sonuç: en kötü %0,97 / %17,6.
