@@ -24,16 +24,18 @@ import render_sogutma_kulesi_3d as sk
 from altyazi_kelime import Altyazi
 
 NAME = "reaktor-kritik-olunca-tehlike-mi"
-TOTAL = 51.46
+TOTAL = 51.69
 NFRAMES = int(TOTAL * FPS)
 BOLUM = 3
 NOTXT = os.environ.get("NOTXT") == "1"
 
 # kelime zamanlari (video saniyesi = transkript + 1,0)
+# 2026-11-28: kapanis kullanicinin kulakla sectigi 2 numara ([calm], flow ZMWmxdkHR2yJopH7fBR2 / V6nmZzF1KrHlova21s8g)
+#   ana sese eklendi (kapanis_ekle.py, yeni ses uretilmedi); ses 45,24 sn; devami/takip birlesik sesin zamanlarindan
 Z = dict(tehlike=2.7, mit=3.66, kulaga=5.34, ama=7.08, kritiklik=10.0, normal=11.26, yakit=13.0, bu=15.98,
          zincir=18.32, doe=20.1, kritik_demek=22.62, notron=24.02, kusak1=26.44, sonraki=28.32, artarsa=30.7,
          ustu=33.48, guc_y=34.58, azalirsa=35.78, alti=36.94, guc_d=37.68, yani=38.78, tehlike2=40.48, denge=41.52,
-         mit2=42.86, devami=43.48, takip=44.62)
+         mit2=42.86, devami=43.54, takip=44.82)
 END0 = 43.3
 
 WORDS = os.path.join(HERE, "metinler", "reaktor-kritik-olunca-tehlike-mi.words.json")
@@ -346,7 +348,7 @@ SHOTS = [(-1.0, sh_a1), (2.55, sh_a2), (Z["kulaga"] - 0.1, sh_kulaga), (Z["ama"]
          (Z["doe"] - 0.1, sh_ic3), (Z["kritik_demek"] - 0.1, sh_ic4), (Z["notron"] - 0.1, sh_k1),
          (Z["kusak1"] - 0.1, sh_k2), (Z["sonraki"] - 0.1, sh_k3), (T_U, sh_u1), (Z["ustu"] - 0.3, sh_u2),
          (T_A, sh_a_1), (Z["guc_d"] - 0.4, sh_a_2), (Z["yani"] - 0.1, sh_s1), (Z["tehlike2"] - 0.1, sh_s2),
-         (END0, sh_son1), (46.4, sh_son2), (49.0, sh_son3)]
+         (END0, sh_son1), (46.63, sh_son2), (49.23, sh_son3)]
 
 
 # ----------------------------------------------------------------- ekran yazilari (ust bolge, y 360-720)
