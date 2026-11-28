@@ -64,6 +64,39 @@ Takip et · Kaydet 🔖
 
 ---
 
+## 5. reaktor-kritik-olunca-tehlike-mi.mp4 (51,43 sn)
+
+**YouTube başlığı:** Reaktör kritik olunca tehlike mi? #Shorts
+
+**YouTube açıklaması:**
+Mit mi, gerçek mi? "Reaktör kritik oldu" kulağa alarm gibi gelir; ama ABD Nükleer Düzenleme Kurulu'na (NRC) göre kritiklik, reaktörün normal çalışma hâlidir: normal işletmede yakıt, fisyon zincirleme tepkimesini sürdürür. Her bölünme yeni nötronlar çıkarır; bu nötronlar başka çekirdekleri böler. ABD Enerji Bakanlığı'nın (DOE) reaktör teorisi el kitabına göre kritik, nötron sayısının bir kuşaktan ötekine ne arttığı ne azaldığı durumdur (keff = 1); el kitabının örneğinde 1.000 nötron bir sonraki kuşağı yine 1.000 nötronla başlatır. Nötron sayısı her kuşakta artarsa reaktör kritik üstüdür ve güç yükselir; azalırsa kritik altıdır ve güç düşer. Yani reaktörde "kritik", denge demektir: Mit. Seslendirme yapay ses ile yapılmıştır.
+
+Kaynaklar:
+- ABD Nükleer Düzenleme Kurulu (NRC), "Glossary: Criticality": https://www.nrc.gov/reading-rm/basic-ref/glossary/criticality.html
+- ABD Nükleer Düzenleme Kurulu (NRC), "Glossary: Chain reaction": https://www.nrc.gov/reading-rm/basic-ref/glossary/chain-reaction.html
+- ABD Nükleer Düzenleme Kurulu (NRC), "Glossary: Reactivity": https://www.nrc.gov/reading-rm/basic-ref/glossary/reactivity.html
+- ABD Enerji Bakanlığı (DOE), "DOE Fundamentals Handbook: Nuclear Physics and Reactor Theory, Volume 2" (DOE-HDBK-1019/2-93): https://www.energy.gov/documents/doe-hdbk-1019-93vol2
+
+Devamı kanalda: Bölüm 3.
+
+#NükleerArşiv #nükleer #atom #fizik #bilim #shorts #keşfet #keşfetbeniöneçıkar #eğitim #trending
+
+**Instagram metni:**
+Mit mi, gerçek mi? "Reaktör kritik oldu" tehlike demek değil. Kritik, nötron sayısının ne artıp ne azaldığı denge hâlidir ve reaktörün normal çalışmasıdır. Artarsa kritik üstü (güç yükselir), azalırsa kritik altı (güç düşer). Kaynak: ABD NRC (Glossary) ve ABD Enerji Bakanlığı (DOE-HDBK-1019/2-93). Bağlantılar YouTube açıklamasında. Seslendirme yapay sestir.
+Takip et · Kaydet 🔖
+#NükleerArşiv #nükleer #bilim #shorts #keşfet #keşfetbeniöneçıkar #reels #eğitim
+
+**Kaynaktan okunan cümleler:**
+- NRC Glossary, Criticality: "During normal reactor operations, nuclear fuel sustains a fission chain reaction or criticality. A reactor achieves criticality (and is said to be critical) when each fission event releases a sufficient number of neutrons to sustain an ongoing series of reactions."
+- NRC Glossary, Chain reaction: "In a fission chain reaction, a fissionable nucleus absorbs a neutron and fissions spontaneously, releasing additional neutrons. These, in turn, can be absorbed by other fissionable nuclei, releasing still more neutrons."
+- NRC Glossary, Reactivity: "A positive reactivity addition indicates a move toward supercriticality (power increase). A negative reactivity addition indicates a move toward subcriticality (power decrease)."
+- DOE-HDBK-1019/2-93, Module 3: "The condition where the neutron chain reaction is self-sustaining and the neutron population is neither increasing nor decreasing is referred to as the critical condition and can be expressed by the simple equation keff = 1."
+- DOE-HDBK-1019/2-93: "In a supercritical reactor, keff is greater than one, and the neutron flux increases each generation. … In a subcritical reactor, keff is less than one, and the flux decreases each generation."
+- DOE-HDBK-1019/2-93, Şekil 1 örneği: "In the example illustrated in Figure 1, keff is equal to one. Therefore, 1000 neutrons are available to start the next generation."
+- Görsel not: atom ölçeğindeki zincirlerde her fisyon 3 nötron çıkarır; kritikte bunlardan biri yeni fisyon yapar, kritik üstünde ikisi, kritik altında zincir söner (tanımın gösterimi; nötron sayısı temsilîdir).
+
+---
+
 ## Üretim notu
 
 - Ses: ElevenLabs `eleven_v4`, Cem (`mScWJwY9Ty24PwwvyNcA`), tek take. Flow'lar: NZHOcMGWVNOweRRCQKbI (radyasyon, 46,16 sn, 774 kredi), 0vaC2x7BATDHaeOocCvP (yakıt, 49,60 sn, 887 kredi).
@@ -82,3 +115,11 @@ Takip et · Kaydet 🔖
   - Bir fisyon ne kadar sürer: flow HA1iagpMGeSAHdRcBGTO (generation UAr251DjYM3gnVEX8lBs), ses 43,89 sn, video 50,33 sn, 743 kredi (+241 dinleme kontrolü, flow dYhPvvruGg6QiR48Yd4H), AAC sonrası -14,1 LUFS / tepe -2,5 dBFS. Metin `pipeline/stil_3d/metinler/bir-fisyon-ne-kadar-surer.txt`, kod `pipeline/stil_3d/render_fisyon_sure_3d.py`.
   - Bu üç video: ses 2.252 + dinleme kontrolü 740 = 2.992 kredi; kalan ElevenLabs karakteri ≈ 96.737 (126.676 limit; üretimden önce hesapta kalan 99.729).
   - Soğutma kulesinden çıkan duman mı (yeni kurallar örneği): flow 06xDF6sWrRWOwBKlX9mx (generation 4VLHdmZtQ1obE4NpFUAQ), ses 46,0 sn, video 52,50 sn; 2026-11-27 düzeltme: kapanış cümlesi aynı tonla yeniden seslendirildi, yöntem B ([warmly] silinip tüm metin tek parça yeniden üretildi; yöntem A denendi, perde +%20,7 farkla reddedildi). Kredi: 776 ses + 253 dinleme kontrolü (flow 2YFyqrfN90mlvimQ3wel) + 201 yöntem A denemesi = 1.230 (ilk üretim 1.041 ayrıca). AAC sonrası -14,1 LUFS / tepe -2,5 dBFS. Metin `pipeline/stil_3d/metinler/sogutma-kulesi-duman-mi.txt`, kod `pipeline/stil_3d/render_sogutma_kulesi_3d.py`. Açılış 10/10, 23 kesme, parlama en kötü %0,00 / sıçrama %19,9. 2026-11-28 düzeltme (kullanıcı şikayeti, 2. kez): kapanış sakin tonla yeniden seslendirildi: V3 (`[calm] Soğuk hava bu nemi tutamaz. İki yüz metre … yapısıdır. Devamı kanalda, takip et, kaçırma.`, flow QvRhn6lVaouaTlVo3yZN, generation Lo0ZTRe4ffxUe2hFXgLZ), yalnız "Devamı"dan sona kadar kısmı mevcut sese 30 ms geçişle eklendi (duraklama aynı, RMS anlatıma eşitlendi -2,7 dB). Ölçümler (anlatım cümle ortalaması → V3 kapanış / eski kapanış): F0 145,2 → 142,1 / 125,4 Hz, perde aralığı p90-p10 9,99 → 7,00 / 6,11 yt, sd 3,75 → 2,51 / 2,72 yt, hız 7,92 → 7,59 / 7,69 hece/sn; ölçütler tam tutmadı (aralık eski kapanıştan dar değil), kulakla doğrulanmalı. Bağımsız transkript (flow Ybc21kQpa17oTcmLQsfV) ses metniyle aynı; "Takip" 45,74 sn (değişmedi). Kredi: 457 ses (3 aday) + 158 aday transkripti + 253 dinleme kontrolü = 868. Görüntü değişmedi; yalnız son 5 dilim (41,6 sn sonrası) yeniden çizildi. Video 52,50 sn (değişmedi), AAC sonrası -14,1 LUFS / tepe -2,3 dBFS, son 10 sn parlama %0,00 / sıçrama %13,4.
+- 2026-11-28 (günlük Shorts görevi): stokta 2 video vardı, 1 yeni Short üretildi. Ses ElevenLabs `eleven_v4`, Can Seçkin (`rSuyucEH95GpZEfLV0AM`), perde kaydırma yok, tek take.
+  - Reaktör kritik olunca tehlike mi: flow rikd3fEQe4HjR30k4e2E (generation HBaRojrWqXFAqHVJxS26), ses 44,96 sn, video 51,43 sn, 703 kredi (+247 dinleme kontrolü, flow ks9xlq4Pwc3CMi7lud1m). AAC sonrası -14,1 LUFS / tepe -2,3 dBFS. Metin `pipeline/stil_3d/metinler/reaktor-kritik-olunca-tehlike-mi.txt`, kod `pipeline/stil_3d/render_reaktor_kritik_3d.py`. Format: Mit mi, gerçek mi? (Bölüm 3 konusu: zincirleme tepkime ve kritiklik).
+  - Açılış cümlesi adayları (0-2 puan × 5 ölçüt: anlaşılır / merak / somut / doğrulanabilir / doğal Türkçe): (b) "Reaktör kritik oldu: Tehlike mi? Mit mi, gerçek mi?" 2+2+1+2+2 = **9 (seçildi)**; (c) "Haber bandında tek kelime belirdi: Reaktör kritik." 2+2+2+1+2 = 9 (hayalî sahne, kaynakta yok; eşitlikte doğrulanabilir olan seçildi); (i) "Bir reaktör her gün kritiktir ve bu iyi haber." 2+2+1+1+2 = 8; (h) "Reaktör 'kritik' dendiğinde aklına ne geliyor?" 2+1+1+2+2 = 8; (a) "Bin nötron girer, bin nötron çıkar: işte kritiklik." 2+1+2+2+1 = 8. İlk karede "REAKTÖR KRİTİK OLDU: / TEHLİKE Mİ?".
+  - Okunuş taraması (UTF-8 yerelinde `grep -P`): eşleşme yok. Dinleme kontrolü: mp3 ayrı flow'a yüklendi, `eleven_scribe_v1` o düğümden çalıştı; transkriptte etiket yok, "A-Be-De" → "ABD" (bağımsız); yanlış okuma yok.
+  - Parlama kontrolü: düzeltildi → geçti. İlk ölçümde parlak alan en çok %1,8 ama sahne geçişlerinde sıçrama %323'e çıkıyordu (gündüz dış plan ↔ koyu atom ölçeği). Atom zemini açıldı, dış planlar poz 0,8, kare başına parlaklık eşitleme (`esitle`, `HEDEF`) eklendi, son kart karartması 4 sn. Render öncesi yazısız ölçüm: en kötü %0,97 / sıçrama %17,6; final videoda (yazılar dahil, 2 kare/sn): %1,21 / %17,0.
+  - Tempo: 22 plan, en uzun plan ≈ 3 sn; kelime kelime altyazı (`altyazi_kelime.py`, son kartta gizli) kareler üzerinde kontrol edildi.
+  - Kalan ElevenLabs karakteri: 94.466 − 950 ≈ 93.516 (126.676 limit).
+
