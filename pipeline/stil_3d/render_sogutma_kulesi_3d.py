@@ -31,9 +31,10 @@ AY = Altyazi(WORDS, 1.0, VURGU, {("on", "altı", "kilometre"): "16 km", ("iki", 
 
 # cumle/ifade baslangiclari (video saniyesi = transkript + 1,0)
 # 2026-11-27: kapanis cumlesi [warmly] olmadan yeniden seslendirildi (yontem B); zamanlar yeni transkripte kaydirildi
+# 2026-11-28: kapanis sakin tonla yeniden seslendirildi (V3 [calm], mevcut sese eklendi); zamanlar birlesik sesin transkriptinden
 Z = dict(duman=5.58, ama=6.94, buharidir=11.14, bu_su=12.08, santralde=14.62, sular=17.04, yalnizca=18.58,
          kulenin=20.3, kismi=22.82, nemli=24.44, tepeden=26.04, yaklasik=26.88, nrc=29.44, radyoaktif=33.34,
-         soguk=34.9, gorunur=36.58, sonra=38.14, iki_yuz=39.96, santralin=42.54, devami=44.62, takip=45.74)
+         soguk=34.9, gorunur=36.58, sonra=38.14, iki_yuz=39.96, santralin=42.54, devami=44.64, takip=45.74)
 END0 = 44.47
 
 # ----------------------------------------------------------------- malzemeler (hepsi mat; parlama yok)

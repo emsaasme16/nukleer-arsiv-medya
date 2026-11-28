@@ -75,6 +75,13 @@ uyarı/alt not yok ("canlandırma", "şematik", "yapay ses" vb.); yapay ses bilg
 - Kapanış/takip cümlesine farklı duygu etiketi ([warmly] vb.) KONMAZ; tüm seslendirme tek tonda okunur (kullanıcı 2026-11-27).
   Soğutma kulesi Short'unda `[warmly] Devamı kanalda; takip et, kaçırma.` ayrı tonda okunduğu için etiket silinip ses tek
   parça yeniden üretildi. `altyazi_kelime.Altyazi` vurgu listesinde bir cümleye demet verilebilir (`("yükselir", "16 km")`).
+  Kapanış cümlesi anlatımla aynı SAKİN tonda okunur, çağrı/heyecan tonu yok; noktalama: Devamı kanalda. Takip et, kaçırma.
+  (kullanıcı 2026-11-28). Soğutma kulesi düzeltmesinde seçilen tarif (V3): tüm parça `[calm]` ile başlar, son iki cümle
+  bağlam olarak üretilir ve yalnız kapanış kesilip mevcut sese eklenir: `[calm] Soğuk hava bu nemi tutamaz. İki yüz metre
+  yüksekliğiyle bu kule, çoğu zaman santralin en yüksek yapısıdır. Devamı kanalda, takip et, kaçırma.` (virgüllü yazımla
+  bile seste "kanalda"dan sonra ~0,34 sn duraklama var). Aday ölçüsü: ortalama F0, yarıton sd ve p90-p10, RMS, hece/sn;
+  referans anlatım cümlelerinin ortalaması. `[curious]` bağlamla üretilen kapanış (V1) perdeyi +%15 ve aralığı 12,8 yt'ye
+  çıkardı (heyecanlı), kullanma.
 - Parlaklık eşitleme (2026-11-28, `render_reaktor_kritik_3d.py`): gündüz dış plan (ort. ~135) ile koyu atom ölçeği (~22)
   arasındaki kesmeler 0,5 sn'de %20 sıçrama sınırını aşıyordu. Çözüm: atom sahnesinin zemini açıldı (S.bg lacivert,
   ort. ~51), dış planlar poz 0,8; sonra `NORM=0 ... olc` ile ham eğri ölçülür, `hedef_hesapla()` log parlaklıkta
